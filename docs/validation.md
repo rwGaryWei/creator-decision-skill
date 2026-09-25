@@ -2,6 +2,8 @@
 
 This alpha distinguishes implemented behavior, deterministic checks, authored demonstrations, model runs and independent human evidence. The [36-run pilot report](pilot-findings.md) links exact inputs and unedited outputs. Two subsequent instruction refinements are disclosed there and have not received a second model comparison. Skill Creator's official format validator also passed; this is a format check only.
 
+Later owner-assisted development review is recorded in [owner review](owner-review.md). One web-case answer generated in the current development conversation received an owner judgment of useful but incomplete on market acceptance. The gap prompted a new instruction revision and an analysis supplement, not an independent trial or a validated fix. The original 36-run pilot remains unchanged.
+
 | Evidence | Current status | What it establishes |
 |---|---|---|
 | Python unit/integration checks | 70 tests passed locally on Windows, Python 3.12 | Tested report integrity, quote matching, snapshot/journal behavior, installation and evaluation arithmetic |

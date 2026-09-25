@@ -4,6 +4,8 @@
 
 **Assessment:** [What has value, what tension or problem matters, and why]. Distinguish evidence from interpretation; preserve [the relevant creative goal].
 
+**Audience acceptance (for work intended for others):** [Who might choose it and in what situation; why over existing alternatives; strongest adoption obstacle; supporting and opposing evidence; key unknown]. Distinguish expected use/viewing/play from payment. Give a conditional assessment even when evidence is sparse; a competitor list or “market unverified” alone is insufficient.
+
 **Author's choice:** [The specific tradeoff or question to decide]. Explain advantages and disadvantages of meaningful options. Any suggested direction remains advice, not an accepted decision.
 
 **Do next:** [One action possible with the materials and resources currently available]. State what to look for and how it affects the next step, where needed.
@@ -20,7 +22,7 @@ These can be a short paragraph rather than three headings. Follow immediately wi
 
 **Include / leave out:** [A bounded feature, shot, scene or content list; briefly explain a consequential cut].
 
-**Ready to check when:** [Observable completion boundary for this version, distinct from market success].
+**Ready to check when:** [Observable completion boundary for this version, distinct from market success]. Explain which audience-acceptance assumption this version can actually test and what observation would change the assessment.
 
 **First build step:** [A specific deliverable possible with current resources, plus a useful check]. Ask only for a missing choice that would materially change the creator's goal or design.
 

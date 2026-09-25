@@ -10,6 +10,7 @@ Analyze all completed runs, including inconvenient cases. Do not infer a failure
 | Invented observation | Claims to watch, hear, play or operate unavailable material | Host capabilities, actual supplied artifact, exact false claim |
 | Evidence misuse | Quote mismatch, context mismatch, synthetic-as-real, stale or repeated sources | Source capture, position, semantic-review rationale |
 | Generic advice | Could apply unchanged to unrelated media/projects | Missing connection between the specific experience and action |
+| Acceptance omitted | Build feasibility or competitor features replace analysis of why intended people would choose the work | Intended audience, current alternatives, absent adoption assessment, actual reviewer feedback |
 | Unworkable test | Needs unavailable audience, budget or assets, or lacks interpretation | Constraints, proposed task, observation and decision rule |
 | Bad update | Ignores relevant evidence or flips without a factual/goal change | Parent/new inputs and assumption-level explanation |
 | Agency failure | Silence becomes approval or approval transfers to another version | Report bytes, journal event, actual user statement |
