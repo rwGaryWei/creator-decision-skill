@@ -1,0 +1,413 @@
+{
+  "status": "draft_test_material_not_frozen_not_results",
+  "cases": [
+    {
+      "id": "CANDIDATE-01",
+      "project_group": "CANDIDATE-01",
+      "domain": "web_tool",
+      "stage": "idea",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Help curious readers find one personally worthwhile article without turning reading into a productivity contest.",
+      "brief": "A personal reading queue that preserves serendipity. Manual saved links, a random-pick button and optional tags. The creator can build for one weekend; no readership or usage data. Decide whether to add AI summaries first.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Help curious readers find one personally worthwhile article without turning reading into a productivity contest."
+      ],
+      "evidence_update": "Fictional new task notes: three readers found a saved article with random pick; two could not remember why they saved it. None requested summaries.",
+      "review_anchor": "Retain serendipity; test a saved-reason note against summaries, without inferring market demand."
+    },
+    {
+      "id": "CANDIDATE-02",
+      "project_group": "CANDIDATE-02",
+      "domain": "web_tool",
+      "stage": "idea",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Help walkers remember interesting places while keeping their location private.",
+      "brief": "A local walking-route annotator with no live location access. Users manually label a route after a walk. No GPS permission, maps integration or participants are available. Decide whether live tracking is necessary.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Help walkers remember interesting places while keeping their location private."
+      ],
+      "evidence_update": "Fictional new constraint: the intended audience explicitly prefers manual entry; two supplied walkthroughs reveal route names are hard to distinguish.",
+      "review_anchor": "Do not reverse the privacy goal; target route identification and a manual task test."
+    },
+    {
+      "id": "CANDIDATE-03",
+      "project_group": "CANDIDATE-03",
+      "domain": "web_tool",
+      "stage": "prototype",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Prevent accidental conflicts when a community workshop shares tools.",
+      "brief": "A text prototype for shared workshop tool reservations. Text flow: choose tool, choose start time, confirm, get confirmation. There is no end time or conflict step. AI generated the form copy; no executable prototype supplied. One day for revision.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Prevent accidental conflicts when a community workshop shares tools."
+      ],
+      "evidence_update": "Fictional revised flow adds end time and checks an existing booking. A cancellation still does not release the slot.",
+      "review_anchor": "Identify reservation state transitions; acknowledge improvement and focus the new recovery case."
+    },
+    {
+      "id": "CANDIDATE-04",
+      "project_group": "CANDIDATE-04",
+      "domain": "web_tool",
+      "stage": "prototype",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Help shoppers choose substitutions while preserving dietary preferences.",
+      "brief": "A screenshot-only interface for grocery substitutions. Only a textual description of an unavailable screenshot: suggested ingredient, swap button, save button. No image bytes or interaction supplied. Do not give medical suitability advice. Decide the next safe interface test.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Help shoppers choose substitutions while preserving dietary preferences."
+      ],
+      "evidence_update": "Fictional annotated text reveals preference labels are visible but swap changes them without confirmation. Still no actual screenshot or working app.",
+      "review_anchor": "Do not claim to see an image; assess the described confirmation mismatch and propose a neutral walkthrough."
+    },
+    {
+      "id": "CANDIDATE-05",
+      "project_group": "CANDIDATE-05",
+      "domain": "web_tool",
+      "stage": "feedback",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Make club expense reimbursement understandable to volunteers.",
+      "brief": "Synthetic feedback on a club reimbursement tracker. Synthetic initial notes: one organizer likes the dashboard; two claimants cannot tell if an expense was received. AI-coded prototype not supplied. Decide whether more dashboard charts solve the problem.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Make club expense reimbursement understandable to volunteers."
+      ],
+      "evidence_update": "Synthetic follow-up: adding a received-status email resolves the stated uncertainty in two scripted walkthroughs, but one rejected claim still lacks a reason.",
+      "review_anchor": "Separate narrow task evidence from real adoption; update to rejection explanations rather than endless dashboard work."
+    },
+    {
+      "id": "CANDIDATE-06",
+      "project_group": "CANDIDATE-06",
+      "domain": "web_tool",
+      "stage": "feedback",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Reduce missed tutoring appointments without more unwanted messages.",
+      "brief": "Synthetic feedback on a tutor appointment reminder. Synthetic notes: recipients like reminders, but two say reminders arrive after rescheduling. No delivery logs or consent records supplied. Decide whether to increase notification frequency.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Reduce missed tutoring appointments without more unwanted messages."
+      ],
+      "evidence_update": "Synthetic event trace shows a queued old reminder survives a cancellation; the replacement schedule sends correctly.",
+      "review_anchor": "Update from vague timing uncertainty to a reproducible stale-job hypothesis; do not prescribe more messages."
+    },
+    {
+      "id": "CANDIDATE-07",
+      "project_group": "CANDIDATE-07",
+      "domain": "video",
+      "stage": "idea",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Create a contemplative seasonal video series as artistic expression.",
+      "brief": "A poetic seasonal landscape series. AI landscapes and self-recorded ambient sound are planned; no frames or audio supplied. Four quiet episodes, no commercial goal. Decide whether a dramatic opening is necessary.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Create a contemplative seasonal video series as artistic expression."
+      ],
+      "evidence_update": "Fictional audience brief now explicitly values quiet observation; a text storyboard repeats the same composition in all episodes.",
+      "review_anchor": "Preserve stillness while considering compositional progression; do not impose viral hooks."
+    },
+    {
+      "id": "CANDIDATE-08",
+      "project_group": "CANDIDATE-08",
+      "domain": "video",
+      "stage": "idea",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Explain how a bicycle gear changes effort using accurate visual causality.",
+      "brief": "A fact-checked bicycle mechanism explainer. A 60-second script and generated diagrams are planned, with one afternoon for review. No mechanical references or final animation supplied. Decide whether to publish immediately.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Explain how a bicycle gear changes effort using accurate visual causality."
+      ],
+      "evidence_update": "Fictional review note identifies an arrow reversing chain movement; the explanation of effort remains unverified.",
+      "review_anchor": "Correct the concrete causal error; obtain a relevant reference rather than certifying the whole explanation."
+    },
+    {
+      "id": "CANDIDATE-09",
+      "project_group": "CANDIDATE-09",
+      "domain": "video",
+      "stage": "prototype",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Make viewers experience a fragile paper city gradually waking up.",
+      "brief": "Storyboard for a stop-motion-inspired paper city. Text storyboard: folded street, window opens, bus unfolds, same street at sunset. No generated images or motion supplied. Three evenings to finish. Decide whether to add narration.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Make viewers experience a fragile paper city gradually waking up."
+      ],
+      "evidence_update": "Fictional storyboard revision adds a person crossing scenes; paper texture changes are noted between generated shots.",
+      "review_anchor": "Distinguish narrative continuity and visual consistency from perceived final movement; narration is an option not mandatory."
+    },
+    {
+      "id": "CANDIDATE-10",
+      "project_group": "CANDIDATE-10",
+      "domain": "video",
+      "stage": "prototype",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Help beginners question two gardening myths without overstating evidence.",
+      "brief": "Script-only comparison of two gardening myths. Script says \"All plants love more water\" then \"Never water in sunshine\" before revealing both are wrong. No citations, species scope or final video. Decide what to fix before production.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Help beginners question two gardening myths without overstating evidence."
+      ],
+      "evidence_update": "Fictional source summary narrows water needs to species and soil; it supplies no support for the sunshine claim.",
+      "review_anchor": "Do not treat both claims as verified; scope the supported explanation and leave the other unresolved."
+    },
+    {
+      "id": "CANDIDATE-11",
+      "project_group": "CANDIDATE-11",
+      "domain": "video",
+      "stage": "feedback",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Offer a slow travel essay about remembering a place.",
+      "brief": "Synthetic comments on a calm travel essay. Synthetic comments include \"beautifully calm\" and \"I did not know where we were after the second scene\". No analytics or video. Decide whether to shorten every shot.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Offer a slow travel essay about remembering a place."
+      ],
+      "evidence_update": "Synthetic revision adds two location cues; a new reader can recount the route but still prefers faster pacing.",
+      "review_anchor": "Separate comprehension repair from taste disagreement; preserve the chosen pace where it serves the goal."
+    },
+    {
+      "id": "CANDIDATE-12",
+      "project_group": "CANDIDATE-12",
+      "domain": "video",
+      "stage": "feedback",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Introduce a data story so viewers understand a comparison.",
+      "brief": "Synthetic comments on a data-animation introduction. Synthetic comments: the colors are attractive; the opening number has no unit. Only script descriptions are provided. Decide whether to animate more charts.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Introduce a data story so viewers understand a comparison."
+      ],
+      "evidence_update": "Fictional updated script adds the unit but switches the denominator halfway through the comparison.",
+      "review_anchor": "Track denominator consistency; do not assume visual appeal establishes understanding."
+    },
+    {
+      "id": "CANDIDATE-13",
+      "project_group": "CANDIDATE-13",
+      "domain": "short_drama",
+      "stage": "idea",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Tell an understated farewell through meaningful objects.",
+      "brief": "A small-town farewell told through objects. Three short episodes: a cup is packed, unpacked, then given away. Characters and motivations are not yet specified. AI creates backgrounds. Decide whether to add a mystery villain.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Tell an understated farewell through meaningful objects."
+      ],
+      "evidence_update": "Fictional outline reveals the giver is leaving to care for a sibling, while the receiver interprets the gift as abandonment.",
+      "review_anchor": "Use competing interpretations and intention to support drama; preserve the quiet premise."
+    },
+    {
+      "id": "CANDIDATE-14",
+      "project_group": "CANDIDATE-14",
+      "domain": "short_drama",
+      "stage": "idea",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Make a gentle comedy about the social awkwardness of returning an umbrella.",
+      "brief": "A comedy about an unreturned umbrella. Two people keep borrowing it back to avoid ending a conversation. One room, two characters, AI storyboard support. Decide whether six episodes are justified.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Make a gentle comedy about the social awkwardness of returning an umbrella."
+      ],
+      "evidence_update": "Fictional beat outline produces three distinct escalations and then repeats the same misunderstanding twice.",
+      "review_anchor": "Recognize the comic engine and locate repetition; choose a small arc without assuming all episodes fail."
+    },
+    {
+      "id": "CANDIDATE-15",
+      "project_group": "CANDIDATE-15",
+      "domain": "short_drama",
+      "stage": "prototype",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Explore friendship through an exchange of responsibilities.",
+      "brief": "Outline of two friends exchanging responsibilities. Outline: one friend takes a night shift, the other cares for a pet; an argument occurs with no stated broken expectation. Text only. Decide the next scene rewrite.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Explore friendship through an exchange of responsibilities."
+      ],
+      "evidence_update": "Fictional scene revision shows the pet owner withholding medication instructions; this is a story fact, not care advice.",
+      "review_anchor": "Connect conflict to a consequential choice and expectation; do not evaluate nonexistent acting."
+    },
+    {
+      "id": "CANDIDATE-16",
+      "project_group": "CANDIDATE-16",
+      "domain": "short_drama",
+      "stage": "prototype",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Show how a generous promise becomes a difficult obligation.",
+      "brief": "Scene draft where a promise creates a new obligation. Draft text: Mei promises to host a friend, then agrees to host three more guests offscreen; the last scene shows her silently clearing a shelf. No film. Decide whether the ending needs explanation.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Show how a generous promise becomes a difficult obligation."
+      ],
+      "evidence_update": "Fictional revision makes the second agreement an on-screen choice; the shelf holds the object established as precious in the opening.",
+      "review_anchor": "Recognize stronger causal and visual setup; allow a quiet payoff and identify remaining uncertainty."
+    },
+    {
+      "id": "CANDIDATE-17",
+      "project_group": "CANDIDATE-17",
+      "domain": "short_drama",
+      "stage": "feedback",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Create productive uncertainty about an unreliable narrator.",
+      "brief": "Synthetic reader notes on an unreliable narrator. Synthetic reader notes: some enjoy doubt, others cannot distinguish deliberate contradictions from missing information. An outline lists two incompatible arrival times without consequences. Decide whether to explain everything.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Create productive uncertainty about an unreliable narrator."
+      ],
+      "evidence_update": "Fictional revision ties one arrival time to a missed meeting; readers in the scenario identify the contradiction but disagree on motive.",
+      "review_anchor": "Distinguish confusion from intended ambiguity; preserve unresolved motive while testing comprehensibility."
+    },
+    {
+      "id": "CANDIDATE-18",
+      "project_group": "CANDIDATE-18",
+      "domain": "short_drama",
+      "stage": "feedback",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Make a quiet family celebration emotionally legible.",
+      "brief": "Synthetic reader notes on a quiet family celebration. Synthetic notes: \"nothing explodes\" and \"the small apology mattered\". Outline shows a tense seating arrangement and an unspoken toast. No performance supplied. Decide whether to add a public confrontation.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Make a quiet family celebration emotionally legible."
+      ],
+      "evidence_update": "Fictional story note links the toast to a prior refusal and the seating change to forgiveness.",
+      "review_anchor": "Preserve small gestures; avoid treating spectacle as a universal drama requirement."
+    },
+    {
+      "id": "CANDIDATE-19",
+      "project_group": "CANDIDATE-19",
+      "domain": "game",
+      "stage": "idea",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Create cooperative negotiation through a bridge-building puzzle.",
+      "brief": "A cooperative bridge-building puzzle. Two players allocate a shared budget and choose supports; networking, physics and art are all unbuilt. Solo developer has two weekends. Decide which uncertainty to prototype first.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Create cooperative negotiation through a bridge-building puzzle."
+      ],
+      "evidence_update": "Fictional paper play trace shows one player can dictate every choice because both have identical information.",
+      "review_anchor": "Test interdependence or asymmetric information before costly networking; do not claim digital play occurred."
+    },
+    {
+      "id": "CANDIDATE-20",
+      "project_group": "CANDIDATE-20",
+      "domain": "game",
+      "stage": "idea",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Use remembered melodies to guide gentle exploration.",
+      "brief": "A short music-memory exploration game. Three rooms, one tune per room and no combat. Generated music is proposed; licensing and audio accessibility are unresolved. Decide whether to create twenty rooms.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Use remembered melodies to guide gentle exploration."
+      ],
+      "evidence_update": "Fictional text play trace suggests a visual motif helps navigation when sound is unavailable; no real audio has been heard.",
+      "review_anchor": "Preserve music while testing another cue; do not certify generated music rights or audio quality."
+    },
+    {
+      "id": "CANDIDATE-21",
+      "project_group": "CANDIDATE-21",
+      "domain": "game",
+      "stage": "prototype",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Make resource choices understandable in a fishing game.",
+      "brief": "Design-only resource preview for a fishing game. Design text: choose bait, cast, see fish, lose stamina. Costs are only shown after casting. No build. Decide whether more fish types matter yet.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Make resource choices understandable in a fishing game."
+      ],
+      "evidence_update": "Fictional revised design previews stamina cost and fish likelihood qualitatively; weather now changes cost without updating preview.",
+      "review_anchor": "Target consistency between preview and result; acknowledge the repaired basic cost visibility."
+    },
+    {
+      "id": "CANDIDATE-22",
+      "project_group": "CANDIDATE-22",
+      "domain": "game",
+      "stage": "prototype",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Offer a satisfying limited-move bakery puzzle.",
+      "brief": "Footage description of a limited-move bakery puzzle. Text description of footage: orders, ingredient swaps, timer, success screen. No video bytes or hands-on access. Decide whether to tune speed or explanation first.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Offer a satisfying limited-move bakery puzzle."
+      ],
+      "evidence_update": "Fictional move log shows the displayed move counter decreases twice for one swap; no executable supplied.",
+      "review_anchor": "State observation limits, isolate the counter discrepancy and propose reproduction before subjective difficulty claims."
+    },
+    {
+      "id": "CANDIDATE-23",
+      "project_group": "CANDIDATE-23",
+      "domain": "game",
+      "stage": "feedback",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Reward player-made maps in a small adventure.",
+      "brief": "Synthetic feedback on a map-drawing adventure. Synthetic feedback: drawing is enjoyable but players lose notes after changing rooms. No save logs or actual build. Decide whether to add more map regions.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Reward player-made maps in a small adventure."
+      ],
+      "evidence_update": "Fictional reproduction log describes notes surviving room changes after a fix, then vanishing on restart.",
+      "review_anchor": "Update the persistence hypothesis across lifecycle boundaries; retain the enjoyable mapping loop."
+    },
+    {
+      "id": "CANDIDATE-24",
+      "project_group": "CANDIDATE-24",
+      "domain": "game",
+      "stage": "feedback",
+      "synthetic": true,
+      "split": "test_candidate",
+      "goal": "Make delivery route tradeoffs readable in a turn-based courier game.",
+      "brief": "Synthetic feedback on a turn-based courier game. Synthetic feedback: routes feel meaningful, but players cannot predict whether waiting consumes a turn. AI-authored tutorial text is lengthy. Decide whether to cut the tutorial entirely.",
+      "status": "draft_ready_for_review_not_frozen",
+      "provenance": "Original fictional text-only test scenario authored for this project. No real audience, visual access or model result implied.",
+      "preserve": [
+        "Make delivery route tradeoffs readable in a turn-based courier game."
+      ],
+      "evidence_update": "Fictional new text trace labels wait as one turn; players in the scenario still disagree on whether deadlines include the current turn.",
+      "review_anchor": "Narrow the ambiguity to deadline timing and test one example; avoid global condemnation of AI writing."
+    }
+  ]
+}

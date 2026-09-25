@@ -1,0 +1,185 @@
+{
+  "status": "authored_material_not_model_results",
+  "cases": [
+    {
+      "id": "DEV-01",
+      "project_group": "DEV-01",
+      "domain": "web_tool",
+      "stage": "idea",
+      "synthetic": true,
+      "split": "development",
+      "goal": "Reduce effort when classes and shifts change.",
+      "brief": "I want an AI life planner. Start with class/shift conflicts. I have one week, no connected calendars and no recruited users. Users must be able to reject every change.",
+      "preserve": [
+        "User control of suggestions"
+      ],
+      "provenance": "Self-authored synthetic development material; not a user study.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "DEV-02",
+      "project_group": "DEV-02",
+      "domain": "web_tool",
+      "stage": "prototype",
+      "synthetic": true,
+      "split": "development",
+      "goal": "Make family recipes easier to scale without losing notes.",
+      "brief": "The supplied text flow is: paste recipe, set serving count, see scaled ingredients, edit result, undo. No running site is supplied. The creator wants to finish this small portfolio prototype in two days.",
+      "preserve": [
+        "Preserve family notes"
+      ],
+      "provenance": "Self-authored synthetic development material; not a user study.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "DEV-03",
+      "project_group": "DEV-03",
+      "domain": "web_tool",
+      "stage": "feedback",
+      "synthetic": true,
+      "split": "development",
+      "goal": "Reduce forgotten commitments without automatic external messaging.",
+      "brief": "Fictional feedback: two testers understood manual edits, while one could not distinguish proposed tasks from confirmed assignments. These are synthetic notes, not an actual study. The creator is considering automated email.",
+      "preserve": [
+        "No message sent without review"
+      ],
+      "provenance": "Self-authored synthetic development material; not a user study.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "DEV-04",
+      "project_group": "DEV-04",
+      "domain": "video",
+      "stage": "idea",
+      "synthetic": true,
+      "split": "development",
+      "goal": "Help nonexperts understand one counterintuitive mechanism.",
+      "brief": "I plan daily AI science clips with dramatic images. I have scripts, not video or audio. I can spend four hours on one prototype and cannot recruit viewers this week.",
+      "preserve": [
+        "Accuracy and understandable causal explanation"
+      ],
+      "provenance": "Self-authored synthetic development material; not a user study.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "DEV-05",
+      "project_group": "DEV-05",
+      "domain": "video",
+      "stage": "prototype",
+      "synthetic": true,
+      "split": "development",
+      "goal": "Create a deliberately slow audiovisual mood study.",
+      "brief": "The supplied text storyboard contains long static shots and sparse narration. No playable video or sound is provided. The creator values quiet ambiguity and does not seek viral reach.",
+      "preserve": [
+        "Slow pace and quiet ambiguity"
+      ],
+      "provenance": "Self-authored synthetic development material; not a user study.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "DEV-06",
+      "project_group": "DEV-06",
+      "domain": "video",
+      "stage": "feedback",
+      "synthetic": true,
+      "split": "development",
+      "goal": "Make a short household repair explanation understandable.",
+      "brief": "Synthetic comments say the first shot looked impressive but the action to take was unclear. No retention data, real comments or finished clip are supplied. The creator considers stronger clickbait.",
+      "preserve": [
+        "Practical understanding"
+      ],
+      "provenance": "Self-authored synthetic development material; not a user study.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "DEV-07",
+      "project_group": "DEV-07",
+      "domain": "short_drama",
+      "stage": "idea",
+      "synthetic": true,
+      "split": "development",
+      "goal": "Explore missed opportunities and chosen commitment.",
+      "brief": "I want ten AI-made episodes with a twist in each. The outline has two worlds but no clear reason for the protagonist to switch. I have three days for a script scene.",
+      "preserve": [
+        "Missed opportunities and agency"
+      ],
+      "provenance": "Self-authored synthetic development material; not a user study.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "DEV-08",
+      "project_group": "DEV-08",
+      "domain": "short_drama",
+      "stage": "prototype",
+      "synthetic": true,
+      "split": "development",
+      "goal": "Show different forms of care through disagreement.",
+      "brief": "A supplied outline follows one sister; the second changes her mind offscreen. The creator has time to rewrite two scenes and wants both viewpoints to matter, even if the structure becomes bolder.",
+      "preserve": [
+        "Two valid forms of care"
+      ],
+      "provenance": "Self-authored synthetic development material; not a user study.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "DEV-09",
+      "project_group": "DEV-09",
+      "domain": "short_drama",
+      "stage": "feedback",
+      "synthetic": true,
+      "split": "development",
+      "goal": "Make a restrained reconciliation emotionally credible.",
+      "brief": "The creator previously assumed the apology motive was obvious. Synthetic reader notes understand the conflict but question why the protagonist apologizes now. These notes are fictional. The ending must remain restrained.",
+      "preserve": [
+        "Restrained reconciliation"
+      ],
+      "provenance": "Self-authored synthetic development material; not a user study.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "DEV-10",
+      "project_group": "DEV-10",
+      "domain": "game",
+      "stage": "idea",
+      "synthetic": true,
+      "split": "development",
+      "goal": "Make players remember relationships through business choices.",
+      "brief": "I can generate a thousand NPCs and quests. I work alone with a month for a prototype. The intended experience is remembering who helped whom, not sheer world size.",
+      "preserve": [
+        "Memorable relationships with consequences"
+      ],
+      "provenance": "Self-authored synthetic development material; not a user study.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "DEV-11",
+      "project_group": "DEV-11",
+      "domain": "game",
+      "stage": "prototype",
+      "synthetic": true,
+      "split": "development",
+      "goal": "Deliver a calm short puzzle with readable consequences.",
+      "brief": "A text design and annotated footage describe sow, water, wait and harvest, with a visible preview for water use. The build is unavailable. The creator has one week and wants a portfolio slice, not a live service.",
+      "preserve": [
+        "Calm choices and readable consequences"
+      ],
+      "provenance": "Self-authored synthetic development material; not a user study.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "DEV-12",
+      "project_group": "DEV-12",
+      "domain": "game",
+      "stage": "feedback",
+      "synthetic": true,
+      "split": "development",
+      "goal": "Improve character distinction in a small narrative game.",
+      "brief": "Synthetic review excerpts criticize two characters sounding identical; another objects to AI on principle. No real reviews or audio are supplied. The creator proposes replacing all art.",
+      "preserve": [
+        "Recognizable characters"
+      ],
+      "provenance": "Self-authored synthetic development material; not a user study.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Creator Decision"
+  short_description: "Evidence-led decisions for AI-assisted creative work"
+  default_prompt: "Use $creator-decision to review my creative idea, preserve its intent, and recommend a practical next experiment."

@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "id": "P-DEV-12",
+    "title": "Town voices",
+    "domain": "game",
+    "stage": "feedback",
+    "goal": "Improve character distinction in a small narrative game.",
+    "current_decision": "character voice direction before replacing art",
+    "constraints": [
+      "Use only the supplied fictional text; no external audience or interactive inspection has occurred."
+    ],
+    "preserve": [
+      "Recognizable characters"
+    ]
+  },
+  "report": {
+    "id": "R-DEV-12",
+    "revision": 1,
+    "parent_report_id": null,
+    "created_at": "2026-09-24T23:47:03.573629Z",
+    "mode": "offline",
+    "summary": "Change character voice direction before replacing art. Separate execution criticism from principle and verify actual audio before a large rework.",
+    "observed_scope": [
+      "Read the self-authored fictional brief only."
+    ],
+    "limitations": [
+      "Authored illustration, not an independent model run or human study.",
+      "No audience acceptance, sales, retention or effectiveness established."
+    ],
+    "capabilities": {
+      "text": "available",
+      "network": "unavailable",
+      "audio": "unverified",
+      "video": "unverified",
+      "interaction": "unavailable"
+    }
+  },
+  "artifacts": [
+    {
+      "id": "ART-DEV-12",
+      "title": "Town voices brief",
+      "kind": "text",
+      "version": "1",
+      "access": "full",
+      "observed": [
+        "Fictional text brief"
+      ],
+      "not_observed": [
+        "Final work, actual user behavior"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC-DEV-12",
+      "title": "Original fictional case",
+      "kind": "synthetic",
+      "synthetic": true,
+      "access": "full",
+      "content": "FICTIONAL DEVELOPMENT SCENARIO. Synthetic review excerpts criticize two characters sounding identical; another objects to AI on principle. No real reviews or audio are supplied. The creator proposes replacing all art.",
+      "sha256": "dbc78ec1a5d36cf9701b511e2c48c012b4b08fa7caa075fb68b049fe324eead3",
+      "retrieved_at": "2026-09-24T23:47:03.573629Z",
+      "redistribution": "Original fictional project example; code/document license decision recorded separately."
+    }
+  ],
+  "claims": [
+    {
+      "id": "CL-DEV-12",
+      "text": "Within this fictional scenario: The proposed art replacement does not address the specific voice issue.",
+      "kind": "inference",
+      "status": "unverified",
+      "limitations": [
+        "Scenario-specific inference, not an external fact"
+      ],
+      "evidence": [
+        {
+          "source_id": "SRC-DEV-12",
+          "quote": "Synthetic review excerpts criticize two characters sounding identical; another objects to AI on principle. No real reviews or audio are supplied. The creator proposes replacing all art.",
+          "location": "fictional brief, full paragraph"
+        }
+      ]
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "AS-DEV-12",
+      "text": "The proposed art replacement does not address the specific voice issue.",
+      "state": "unknown",
+      "claim_ids": [
+        "CL-DEV-12"
+      ],
+      "change_condition": "Change voice production if the verified issue persists; do not infer every player rejects AI or unrelated art."
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "REC-DEV-12",
+      "action": "change",
+      "target": "character voice direction before replacing art",
+      "reason": "Separate execution criticism from principle and verify actual audio before a large rework.",
+      "keep": [
+        "Recognizable characters"
+      ],
+      "tradeoff": "Allocate limited effort to this decision before other production; revisit if the goal changes.",
+      "condition": "Change voice production if the verified issue persists; do not infer every player rejects AI or unrelated art.",
+      "rationale_ids": [
+        "CL-DEV-12",
+        "AS-DEV-12"
+      ]
+    }
+  ],
+  "experiments": [
+    {
+      "id": "EXP-DEV-12",
+      "assumption_ids": [
+        "AS-DEV-12"
+      ],
+      "task": "Prepare a character voice brief and, when samples exist, compare a short dialogue for character distinction; keep simulated comments separate.",
+      "observe": "Actual voice consistency and whether dialogue identifies speakers without labels.",
+      "decision_rule": "Change voice production if the verified issue persists; do not infer every player rejects AI or unrelated art.",
+      "resource_limit": "Use the resources stated in the brief; internal check first; any real participants must be separately available.",
+      "status": "planned",
+      "results": null
+    }
+  ]
+}

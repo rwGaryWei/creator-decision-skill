@@ -1,0 +1,16 @@
+{
+  "status": "not_run",
+  "job_id": "COPY_FROM_MANIFEST",
+  "input_sha256": "COPY_FROM_MANIFEST",
+  "model": null,
+  "host": null,
+  "settings": null,
+  "started_at": null,
+  "finished_at": null,
+  "provenance": null,
+  "response": null,
+  "error": null,
+  "usage": null,
+  "cost": null,
+  "attempt": 1
+}

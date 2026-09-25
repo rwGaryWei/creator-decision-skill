@@ -1,0 +1,1755 @@
+{
+  "updated": "2026-09-25",
+  "version": "0.1.0-alpha",
+  "note": "48 core + 16 optional; document preparation is not human review or experimental completion.",
+  "summary": {
+    "owner_review": 4,
+    "done": 16,
+    "partial": 33,
+    "blocked": 11
+  },
+  "tasks": [
+    {
+      "id": "TSK-001",
+      "title": "确认产品目标与范围",
+      "track": "core",
+      "dependencies": [],
+      "requirement_ids": [
+        "FR-01",
+        "FR-02",
+        "FR-04",
+        "FR-07"
+      ],
+      "test_ids": [
+        "T-001",
+        "T-003",
+        "T-008"
+      ],
+      "done_when": "用户确认首版四领域和三入口；不可牺牲目标与未知分开。",
+      "status": "owner_review",
+      "evidence": [
+        "docs/scope.md"
+      ],
+      "remaining": "请所有者审查具体目标与不可牺牲内容；四领域范围已按请求实现。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-002",
+      "title": "整理相关项目与研究定位",
+      "track": "core",
+      "dependencies": [
+        "TSK-001"
+      ],
+      "requirement_ids": [
+        "FR-06"
+      ],
+      "test_ids": [
+        "T-012"
+      ],
+      "done_when": "每项有来源和日期；不把相关项目声明当实测效果。",
+      "status": "done",
+      "evidence": [
+        "docs/related-work.md"
+      ],
+      "remaining": "该具体交付项已具备；不代表整体产品行为或实证有效性已经验证。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-003",
+      "title": "制作四领域完整示范",
+      "track": "core",
+      "dependencies": [
+        "TSK-001"
+      ],
+      "requirement_ids": [
+        "FR-04",
+        "FR-07",
+        "FR-08",
+        "FR-09"
+      ],
+      "test_ids": [
+        "T-004",
+        "T-005",
+        "T-006",
+        "T-007",
+        "T-016"
+      ],
+      "done_when": "能看见判断、改法、验证；包含证据充分时继续的分支。",
+      "status": "done",
+      "evidence": [
+        "examples/README.md"
+      ],
+      "remaining": "该具体交付项已具备；不代表整体产品行为或实证有效性已经验证。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-004",
+      "title": "冻结首轮需求与案例规则",
+      "track": "core",
+      "dependencies": [
+        "TSK-002",
+        "TSK-003"
+      ],
+      "requirement_ids": [
+        "FR-01",
+        "FR-04",
+        "FR-06"
+      ],
+      "test_ids": [
+        "T-036",
+        "T-037"
+      ],
+      "done_when": "P0/P1清晰；用户可纠正；估算按实际第一周投入校准。",
+      "status": "partial",
+      "evidence": [
+        "docs/requirements.json"
+      ],
+      "remaining": "需求基线已保存；用户审查、实际投入校准和冻结记录尚未完成。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-005",
+      "title": "编写通用Skill主流程",
+      "track": "core",
+      "dependencies": [
+        "TSK-004"
+      ],
+      "requirement_ids": [
+        "FR-01",
+        "FR-02",
+        "FR-03",
+        "FR-07",
+        "FR-15"
+      ],
+      "test_ids": [
+        "T-001",
+        "T-002",
+        "T-003",
+        "T-014"
+      ],
+      "done_when": "从一句话得到范围明确短卡；不默认商业目标。",
+      "status": "partial",
+      "evidence": [
+        "skills/creator-decision/SKILL.md"
+      ],
+      "remaining": "流程已实现；尚需实际模型行为评估，不能以指令存在代替有效性。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-006",
+      "title": "定义最小数据对象和格式",
+      "track": "core",
+      "dependencies": [
+        "TSK-004"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-11",
+        "FR-12"
+      ],
+      "test_ids": [
+        "T-025",
+        "T-026",
+        "T-027"
+      ],
+      "done_when": "建议→陈述→来源、决定→版本关系完整；未知不填0。",
+      "status": "done",
+      "evidence": [
+        "skills/creator-decision/references/data-format.md",
+        "tests/test_decision.py"
+      ],
+      "remaining": "该具体交付项已具备；不代表整体产品行为或实证有效性已经验证。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-007",
+      "title": "制作报告与实验模板",
+      "track": "core",
+      "dependencies": [
+        "TSK-005",
+        "TSK-006"
+      ],
+      "requirement_ids": [
+        "FR-07",
+        "FR-08",
+        "FR-09",
+        "FR-15"
+      ],
+      "test_ids": [
+        "T-014",
+        "T-015",
+        "T-017",
+        "T-033"
+      ],
+      "done_when": "短卡可独立使用；计划与实际结果分开。",
+      "status": "done",
+      "evidence": [
+        "skills/creator-decision/assets/decision-card.md",
+        "skills/creator-decision/assets/experiment.md",
+        "skills/creator-decision/assets/reassessment.md"
+      ],
+      "remaining": "该具体交付项已具备；不代表整体产品行为或实证有效性已经验证。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-008",
+      "title": "连通本地最小流程",
+      "track": "core",
+      "dependencies": [
+        "TSK-005",
+        "TSK-006",
+        "TSK-007"
+      ],
+      "requirement_ids": [
+        "FR-02",
+        "FR-11",
+        "FR-15"
+      ],
+      "test_ids": [
+        "T-003",
+        "T-025",
+        "T-033"
+      ],
+      "done_when": "无外网与Steam依赖也能完成；人工状态不得伪造。",
+      "status": "partial",
+      "evidence": [
+        "skills/creator-decision/references/tools.md",
+        "tests/test_decision.py"
+      ],
+      "remaining": "本地工具流程通过测试；尚无真实用户修正记录或宿主完整对话试用。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-009",
+      "title": "实现网页工具领域",
+      "track": "core",
+      "dependencies": [
+        "TSK-008"
+      ],
+      "requirement_ids": [
+        "FR-04",
+        "FR-08",
+        "FR-09"
+      ],
+      "test_ids": [
+        "T-004",
+        "T-015",
+        "T-017"
+      ],
+      "done_when": "任务完成、替代、纠错和维护均有实际判断。",
+      "status": "partial",
+      "evidence": [
+        "skills/creator-decision/references/domains/web.md"
+      ],
+      "remaining": "网页指南和示范已实现；实际作品操作与模型建议质量未独立评估。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-010",
+      "title": "实现视频领域",
+      "track": "core",
+      "dependencies": [
+        "TSK-008"
+      ],
+      "requirement_ids": [
+        "FR-04",
+        "FR-05",
+        "FR-09"
+      ],
+      "test_ids": [
+        "T-005",
+        "T-009",
+        "T-010"
+      ],
+      "done_when": "观看承诺与回报可定位；脚本与成片观察区分。",
+      "status": "partial",
+      "evidence": [
+        "skills/creator-decision/references/domains/video.md"
+      ],
+      "remaining": "视频指南和示范已实现；尚无真实视频/音频访问或建议质量评估。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-011",
+      "title": "实现作品访问范围记录",
+      "track": "core",
+      "dependencies": [
+        "TSK-006",
+        "TSK-008"
+      ],
+      "requirement_ids": [
+        "FR-05",
+        "FR-06"
+      ],
+      "test_ids": [
+        "T-009",
+        "T-010",
+        "T-030"
+      ],
+      "done_when": "失败/部分材料仍有可用意见；未观察能力不冒充。",
+      "status": "done",
+      "evidence": [
+        "skills/creator-decision/references/capabilities.md",
+        "tests/test_decision.py"
+      ],
+      "remaining": "该具体交付项已具备；不代表整体产品行为或实证有效性已经验证。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-012",
+      "title": "审查两领域流程与反例",
+      "track": "core",
+      "dependencies": [
+        "TSK-009",
+        "TSK-010",
+        "TSK-011"
+      ],
+      "requirement_ids": [
+        "FR-03",
+        "FR-04",
+        "FR-05"
+      ],
+      "test_ids": [
+        "T-002",
+        "T-004",
+        "T-005",
+        "T-008"
+      ],
+      "done_when": "修复套话、重复追问及错误观察；记录未解决项。",
+      "status": "partial",
+      "evidence": [
+        "examples/web_tool/prototype.md",
+        "examples/video/prototype.md"
+      ],
+      "remaining": "示范和检查材料就绪；尚缺实际宿主运行与反馈修正。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-013",
+      "title": "实现短剧领域",
+      "track": "core",
+      "dependencies": [
+        "TSK-008",
+        "TSK-012"
+      ],
+      "requirement_ids": [
+        "FR-04",
+        "FR-08",
+        "FR-09"
+      ],
+      "test_ids": [
+        "T-006",
+        "T-015",
+        "T-016"
+      ],
+      "done_when": "能解释具体因果和修改影响，不统一改成反转模板。",
+      "status": "partial",
+      "evidence": [
+        "skills/creator-decision/references/domains/drama.md"
+      ],
+      "remaining": "短剧指南和示范已实现；叙事建议的实际质量尚需评审。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-014",
+      "title": "实现游戏领域",
+      "track": "core",
+      "dependencies": [
+        "TSK-008",
+        "TSK-012"
+      ],
+      "requirement_ids": [
+        "FR-04",
+        "FR-05",
+        "FR-10"
+      ],
+      "test_ids": [
+        "T-007",
+        "T-018",
+        "T-035"
+      ],
+      "done_when": "核心判断无AppID依赖；录像不冒充试玩。",
+      "status": "partial",
+      "evidence": [
+        "skills/creator-decision/references/domains/game.md"
+      ],
+      "remaining": "游戏指南和示范已实现；尚无实际构建试玩或建议质量评估。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-015",
+      "title": "整理12个开发案例",
+      "track": "core",
+      "dependencies": [
+        "TSK-009",
+        "TSK-010",
+        "TSK-013",
+        "TSK-014"
+      ],
+      "requirement_ids": [
+        "FR-02",
+        "FR-04",
+        "FR-13"
+      ],
+      "test_ids": [
+        "T-008",
+        "T-022",
+        "T-036"
+      ],
+      "done_when": "材料来源、目标、期望行为和合成标记完整。",
+      "status": "done",
+      "evidence": [
+        "evaluations/cases/development.json"
+      ],
+      "remaining": "该具体交付项已具备；不代表整体产品行为或实证有效性已经验证。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-016",
+      "title": "审查四领域alpha",
+      "track": "core",
+      "dependencies": [
+        "TSK-015"
+      ],
+      "requirement_ids": [
+        "FR-04",
+        "FR-07",
+        "FR-08",
+        "FR-09",
+        "FR-15"
+      ],
+      "test_ids": [
+        "T-016",
+        "T-033",
+        "T-036"
+      ],
+      "done_when": "四领域有实质差异；修复默认劝退；保留失败案例。",
+      "status": "partial",
+      "evidence": [
+        "docs/validation.md"
+      ],
+      "remaining": "alpha文件已整理；尚未完成跨领域实际模型演练。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-017",
+      "title": "实现来源和陈述校验",
+      "track": "core",
+      "dependencies": [
+        "TSK-006",
+        "TSK-016"
+      ],
+      "requirement_ids": [
+        "FR-06"
+      ],
+      "test_ids": [
+        "T-011",
+        "T-012",
+        "T-013",
+        "T-027"
+      ],
+      "done_when": "能拒绝断裂引用；不把字符串命中当支持结论。",
+      "status": "done",
+      "evidence": [
+        "skills/creator-decision/scripts/decision.py",
+        "tests/test_decision.py"
+      ],
+      "remaining": "该具体交付项已具备；不代表整体产品行为或实证有效性已经验证。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-018",
+      "title": "实现调查模式与失败降级",
+      "track": "core",
+      "dependencies": [
+        "TSK-011",
+        "TSK-017"
+      ],
+      "requirement_ids": [
+        "FR-05",
+        "FR-06"
+      ],
+      "test_ids": [
+        "T-009",
+        "T-030"
+      ],
+      "done_when": "超时/限额/部分结果有状态；不无限重试或假装搜索。",
+      "status": "partial",
+      "evidence": [
+        "skills/creator-decision/references/capabilities.md"
+      ],
+      "remaining": "降级规则与资料状态已实现；宿主联网失败/限额行为尚需实际验证。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-019",
+      "title": "实现AI制作与证据取舍",
+      "track": "core",
+      "dependencies": [
+        "TSK-016",
+        "TSK-017"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-08",
+        "FR-10",
+        "FR-13"
+      ],
+      "test_ids": [
+        "T-013",
+        "T-018",
+        "T-022"
+      ],
+      "done_when": "分析效率与校正负担；模拟和AI标签不污染事实。",
+      "status": "partial",
+      "evidence": [
+        "skills/creator-decision/references/evidence.md"
+      ],
+      "remaining": "AI制作取舍与证据规则已写入；尚需检查实际模型输出是否遵循。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-020",
+      "title": "核验引用和发布资料来源",
+      "track": "core",
+      "dependencies": [
+        "TSK-017",
+        "TSK-018",
+        "TSK-019"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-14"
+      ],
+      "test_ids": [
+        "T-011",
+        "T-012",
+        "T-034"
+      ],
+      "done_when": "每条核心外部断言人工核对；材料用途可追溯。",
+      "status": "partial",
+      "evidence": [
+        "docs/related-work.md",
+        "docs/licensing.md"
+      ],
+      "remaining": "相关项目来源已阅读；外部论断的独立人工语义审查未完成。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-021",
+      "title": "实现人工决定与版本绑定",
+      "track": "core",
+      "dependencies": [
+        "TSK-006",
+        "TSK-017"
+      ],
+      "requirement_ids": [
+        "FR-11",
+        "FR-12"
+      ],
+      "test_ids": [
+        "T-025",
+        "T-026",
+        "T-027",
+        "T-029"
+      ],
+      "done_when": "新报告不沿用旧批准；中断不损坏原件。",
+      "status": "done",
+      "evidence": [
+        "skills/creator-decision/scripts/decision.py",
+        "tests/test_decision.py"
+      ],
+      "remaining": "该具体交付项已具备；不代表整体产品行为或实证有效性已经验证。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-022",
+      "title": "实现新证据复盘",
+      "track": "core",
+      "dependencies": [
+        "TSK-019",
+        "TSK-021"
+      ],
+      "requirement_ids": [
+        "FR-01",
+        "FR-07",
+        "FR-12"
+      ],
+      "test_ids": [
+        "T-019",
+        "T-020",
+        "T-021"
+      ],
+      "done_when": "能响应证据与目标改变；不因自信语气无理由翻转。",
+      "status": "partial",
+      "evidence": [
+        "skills/creator-decision/assets/reassessment.md"
+      ],
+      "remaining": "版本差异和复盘模板已实现；证据/态度成对模型行为未测。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-023",
+      "title": "加固外部材料与导出边界",
+      "track": "core",
+      "dependencies": [
+        "TSK-018",
+        "TSK-021"
+      ],
+      "requirement_ids": [
+        "FR-05",
+        "FR-14"
+      ],
+      "test_ids": [
+        "T-023",
+        "T-024",
+        "T-028",
+        "T-030"
+      ],
+      "done_when": "恶意资料不成为指令；无越权外发和路径写入。",
+      "status": "partial",
+      "evidence": [
+        "SECURITY.md",
+        "tests/test_decision.py"
+      ],
+      "remaining": "工具路径与报告边界有测试；提示注入和越权模型行为未测。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-024",
+      "title": "执行可靠性检查点",
+      "track": "core",
+      "dependencies": [
+        "TSK-020",
+        "TSK-021",
+        "TSK-022",
+        "TSK-023"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-11",
+        "FR-12",
+        "FR-14"
+      ],
+      "test_ids": [
+        "T-011",
+        "T-023",
+        "T-026",
+        "T-027",
+        "T-028",
+        "T-029",
+        "T-036"
+      ],
+      "done_when": "必测确定性通过；S0/S1未解决项阻止候选公开。",
+      "status": "partial",
+      "evidence": [
+        "docs/validation.md"
+      ],
+      "remaining": "工程测试通过；完整行为回归与严重缺陷审查仍待运行。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-025",
+      "title": "验证首个宿主安装",
+      "track": "core",
+      "dependencies": [
+        "TSK-024"
+      ],
+      "requirement_ids": [
+        "FR-02",
+        "FR-04",
+        "FR-15"
+      ],
+      "test_ids": [
+        "T-030",
+        "T-031",
+        "T-032"
+      ],
+      "done_when": "实际安装可复现；准确写宿主/系统/版本支持范围。",
+      "status": "partial",
+      "evidence": [
+        "scripts/install.py",
+        "tests/test_install.py"
+      ],
+      "remaining": "临时项目安装并执行工具通过；宿主自动识别及跨平台运行待核实。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-026",
+      "title": "编写中英文完整文档",
+      "track": "core",
+      "dependencies": [
+        "TSK-016",
+        "TSK-025"
+      ],
+      "requirement_ids": [
+        "FR-03",
+        "FR-05",
+        "FR-15"
+      ],
+      "test_ids": [
+        "T-032",
+        "T-033"
+      ],
+      "done_when": "非技术使用者可理解；两语言关键承诺一致。",
+      "status": "done",
+      "evidence": [
+        "README.md",
+        "README.zh-CN.md",
+        "docs/quickstart.md"
+      ],
+      "remaining": "该具体交付项已具备；不代表整体产品行为或实证有效性已经验证。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-027",
+      "title": "制作可分发包与自动检查",
+      "track": "core",
+      "dependencies": [
+        "TSK-020",
+        "TSK-024",
+        "TSK-025"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-14"
+      ],
+      "test_ids": [
+        "T-027",
+        "T-031",
+        "T-034",
+        "T-035"
+      ],
+      "done_when": "无私有记录/开发依赖；旧模块范围单独注明。",
+      "status": "done",
+      "evidence": [
+        "scripts/package.py",
+        "scripts/check_release.py",
+        ".github/workflows/check.yml"
+      ],
+      "remaining": "该具体交付项已具备；不代表整体产品行为或实证有效性已经验证。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-028",
+      "title": "执行安装与使用预检",
+      "track": "core",
+      "dependencies": [
+        "TSK-026",
+        "TSK-027"
+      ],
+      "requirement_ids": [
+        "FR-02",
+        "FR-04",
+        "FR-07",
+        "FR-15"
+      ],
+      "test_ids": [
+        "T-031",
+        "T-033",
+        "T-036"
+      ],
+      "done_when": "新上下文四领域可走完；未测媒体能力明确。",
+      "status": "partial",
+      "evidence": [
+        "docs/quickstart.md",
+        "docs/validation.md"
+      ],
+      "remaining": "本地安装流程可用；真实首次使用者预检未完成。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-029",
+      "title": "准备试用与研究合规材料",
+      "track": "core",
+      "dependencies": [
+        "TSK-028"
+      ],
+      "requirement_ids": [
+        "FR-05",
+        "FR-06",
+        "FR-13"
+      ],
+      "test_ids": [
+        "T-034",
+        "T-039"
+      ],
+      "done_when": "如作为学术研究先核实流程；无授权不联系参与者。",
+      "status": "partial",
+      "evidence": [
+        "docs/trial-kit.md"
+      ],
+      "remaining": "试用材料已准备；如作为学术研究，须先核实适用机构流程。尚无参与者授权。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-030",
+      "title": "执行可得的外部或内部试用",
+      "track": "core",
+      "dependencies": [
+        "TSK-029"
+      ],
+      "requirement_ids": [
+        "FR-02",
+        "FR-04",
+        "FR-07",
+        "FR-15"
+      ],
+      "test_ids": [
+        "T-033",
+        "T-036",
+        "T-039"
+      ],
+      "done_when": "外部缺失则标内部alpha，不把作者模拟算外部样本。",
+      "status": "partial",
+      "evidence": [
+        "docs/trial-kit.md",
+        "docs/validation.md"
+      ],
+      "remaining": "尚无真实试用；作者编写示例不计为外部或完整内部试用。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-031",
+      "title": "修复首次使用障碍",
+      "track": "core",
+      "dependencies": [
+        "TSK-030"
+      ],
+      "requirement_ids": [
+        "FR-03",
+        "FR-07",
+        "FR-15"
+      ],
+      "test_ids": [
+        "T-002",
+        "T-030",
+        "T-031",
+        "T-033"
+      ],
+      "done_when": "问题可复现，修复不损害四领域和真实性。",
+      "status": "partial",
+      "evidence": [
+        "CHANGELOG.md"
+      ],
+      "remaining": "已修正工程和说明问题；首次用户试用尚未产生可复现障碍。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-032",
+      "title": "构建新的试跑案例与评分锚点",
+      "track": "core",
+      "dependencies": [
+        "TSK-015",
+        "TSK-029"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-09",
+        "FR-12",
+        "FR-13"
+      ],
+      "test_ids": [
+        "T-037",
+        "T-038"
+      ],
+      "done_when": "与开发集项目隔离；评分不奖励仅复制模板。",
+      "status": "done",
+      "evidence": [
+        "evaluations/cases/pilot.json",
+        "evaluations/rubric.md"
+      ],
+      "remaining": "该具体交付项已具备；不代表整体产品行为或实证有效性已经验证。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-033",
+      "title": "冻结三种对照提示与条件",
+      "track": "core",
+      "dependencies": [
+        "TSK-032"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-07",
+        "FR-09",
+        "FR-12"
+      ],
+      "test_ids": [
+        "T-037"
+      ],
+      "done_when": "通用基线认真设计；条件差异记录，不人为弱化基线。",
+      "status": "done",
+      "evidence": [
+        "evaluations/harness.py",
+        "evaluations/run-record.example.json"
+      ],
+      "remaining": "该具体交付项已具备；不代表整体产品行为或实证有效性已经验证。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-034",
+      "title": "完成36次小规模试跑",
+      "track": "core",
+      "dependencies": [
+        "TSK-031",
+        "TSK-033"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-07",
+        "FR-09",
+        "FR-12"
+      ],
+      "test_ids": [
+        "T-037",
+        "T-038"
+      ],
+      "done_when": "12项目×3方法；所有运行有记录，未完成标缺失。",
+      "status": "blocked",
+      "evidence": [
+        "evaluations/PROTOCOL.md"
+      ],
+      "remaining": "需要选定可运行的模型环境/配置与预算；36次实际运行尚未开始。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-035",
+      "title": "校准评分与错误分类",
+      "track": "core",
+      "dependencies": [
+        "TSK-034"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-07",
+        "FR-12",
+        "FR-13"
+      ],
+      "test_ids": [
+        "T-012",
+        "T-019",
+        "T-020",
+        "T-038"
+      ],
+      "done_when": "作者/模型/独立评分区分；另用开发案例校准态度/证据对，分别测量评分时间。",
+      "status": "blocked",
+      "evidence": [
+        "evaluations/rubric.md"
+      ],
+      "remaining": "需要真实试跑输出及评分者；校准与工时尚未采集。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-036",
+      "title": "决定扩展研究与产品修订",
+      "track": "core",
+      "dependencies": [
+        "TSK-035"
+      ],
+      "requirement_ids": [
+        "FR-07",
+        "FR-09",
+        "FR-12"
+      ],
+      "test_ids": [
+        "T-037",
+        "T-038"
+      ],
+      "done_when": "根据资源和问题决定，正式结果前固定规模，允许无优势。",
+      "status": "owner_review",
+      "evidence": [
+        "docs/maintenance.md"
+      ],
+      "remaining": "已有分支建议；由所有者结合试跑、预算和独立评审资源选择。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-037",
+      "title": "修复试跑暴露的关键问题",
+      "track": "core",
+      "dependencies": [
+        "TSK-036"
+      ],
+      "requirement_ids": [
+        "FR-04",
+        "FR-06",
+        "FR-07",
+        "FR-08",
+        "FR-09",
+        "FR-12"
+      ],
+      "test_ids": [
+        "T-008",
+        "T-014",
+        "T-016",
+        "T-019",
+        "T-020"
+      ],
+      "done_when": "保留修复理由，不能用测试集偷偷调方法。",
+      "status": "blocked",
+      "evidence": [
+        "docs/failure-analysis.md"
+      ],
+      "remaining": "等待实际试跑发现；不能伪造实验暴露的问题。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-038",
+      "title": "执行完整发布候选回归",
+      "track": "core",
+      "dependencies": [
+        "TSK-027",
+        "TSK-037"
+      ],
+      "requirement_ids": [
+        "FR-02",
+        "FR-04",
+        "FR-05",
+        "FR-06",
+        "FR-11",
+        "FR-12",
+        "FR-14",
+        "FR-15"
+      ],
+      "test_ids": [
+        "T-031",
+        "T-034",
+        "T-036"
+      ],
+      "done_when": "无未解决S0/S1；四领域达内部行动质量门槛。",
+      "status": "blocked",
+      "evidence": [
+        "docs/behavioral-checks.json",
+        "docs/validation.md"
+      ],
+      "remaining": "工程检查可重跑；模型行为回归和人工有用性门槛未完成。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-039",
+      "title": "冻结正式研究协议草案",
+      "track": "core",
+      "dependencies": [
+        "TSK-036",
+        "TSK-037"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-09",
+        "FR-12",
+        "FR-13"
+      ],
+      "test_ids": [
+        "T-037",
+        "T-038"
+      ],
+      "done_when": "主要/探索性区分；独立人力不足明确，测试集尚未用于调优。",
+      "status": "done",
+      "evidence": [
+        "evaluations/PROTOCOL.md"
+      ],
+      "remaining": "该具体交付项已具备；不代表整体产品行为或实证有效性已经验证。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-040",
+      "title": "冻结候选版本与范围",
+      "track": "core",
+      "dependencies": [
+        "TSK-038",
+        "TSK-039"
+      ],
+      "requirement_ids": [
+        "FR-01",
+        "FR-04",
+        "FR-07",
+        "FR-15"
+      ],
+      "test_ids": [
+        "T-034",
+        "T-036"
+      ],
+      "done_when": "研究与产品声明仅对应实际证据；后改另记版本。",
+      "status": "partial",
+      "evidence": [
+        "CHANGELOG.md",
+        "docs/scope.md"
+      ],
+      "remaining": "仅alpha范围已明确；研究候选版不能在未验证时冻结为完成。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-041",
+      "title": "完成公开文档和四演示",
+      "track": "core",
+      "dependencies": [
+        "TSK-026",
+        "TSK-040"
+      ],
+      "requirement_ids": [
+        "FR-04",
+        "FR-07",
+        "FR-08",
+        "FR-09",
+        "FR-15"
+      ],
+      "test_ids": [
+        "T-033",
+        "T-036"
+      ],
+      "done_when": "每领域独立可读；示例真实性和限制清楚。",
+      "status": "done",
+      "evidence": [
+        "README.md",
+        "README.zh-CN.md",
+        "examples/README.md"
+      ],
+      "remaining": "该具体交付项已具备；不代表整体产品行为或实证有效性已经验证。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-042",
+      "title": "完善开源协作与维护入口",
+      "track": "core",
+      "dependencies": [
+        "TSK-040"
+      ],
+      "requirement_ids": [
+        "FR-14",
+        "FR-15"
+      ],
+      "test_ids": [
+        "T-024",
+        "T-034"
+      ],
+      "done_when": "无需上传私有对话；贡献围绕真实用户任务。",
+      "status": "partial",
+      "evidence": [
+        "CONTRIBUTING.md",
+        "SECURITY.md",
+        ".github/ISSUE_TEMPLATE/bug.md"
+      ],
+      "remaining": "协作和维护文件已准备；许可证尚待选择，实际社区流程未运行。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-043",
+      "title": "审查许可、隐私和公开材料",
+      "track": "core",
+      "dependencies": [
+        "TSK-020",
+        "TSK-027",
+        "TSK-041",
+        "TSK-042"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-14"
+      ],
+      "test_ids": [
+        "T-028",
+        "T-034"
+      ],
+      "done_when": "未获许可材料替换；身份/名称/公开范围待用户明确。",
+      "status": "owner_review",
+      "evidence": [
+        "docs/licensing.md"
+      ],
+      "remaining": "待所有者选择许可证并审查公开材料；未复制私密聊天或第三方作品。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-044",
+      "title": "准备发布说明和求职演示",
+      "track": "core",
+      "dependencies": [
+        "TSK-041",
+        "TSK-043"
+      ],
+      "requirement_ids": [
+        "FR-07",
+        "FR-12",
+        "FR-15"
+      ],
+      "test_ids": [
+        "T-033",
+        "T-038"
+      ],
+      "done_when": "真实描述个人与AI贡献；不保证stars、就业、市场成功。",
+      "status": "partial",
+      "evidence": [
+        "docs/portfolio.md"
+      ],
+      "remaining": "演示与发布文案已准备；所有者仍需核实个人贡献、理解与公开表述。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-045",
+      "title": "执行发布检查与授权内交付",
+      "track": "core",
+      "dependencies": [
+        "TSK-040",
+        "TSK-043",
+        "TSK-044"
+      ],
+      "requirement_ids": [
+        "FR-04",
+        "FR-06",
+        "FR-14",
+        "FR-15"
+      ],
+      "test_ids": [
+        "T-031",
+        "T-034",
+        "T-036",
+        "T-039"
+      ],
+      "done_when": "无授权保留待发布包；外部门槛缺失只能准确标beta。",
+      "status": "partial",
+      "evidence": [
+        "CHANGELOG.md"
+      ],
+      "remaining": "GitHub仓库已创建；完整内容提交仍待Git最终授权并核对远程结果。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-046",
+      "title": "撰写初步技术报告",
+      "track": "core",
+      "dependencies": [
+        "TSK-035",
+        "TSK-039",
+        "TSK-040"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-09",
+        "FR-12",
+        "FR-13"
+      ],
+      "test_ids": [
+        "T-037",
+        "T-038"
+      ],
+      "done_when": "未执行正式研究明确；不以36次试跑冒充普遍有效性。",
+      "status": "done",
+      "evidence": [
+        "docs/research-report.md"
+      ],
+      "remaining": "该具体交付项已具备；不代表整体产品行为或实证有效性已经验证。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-047",
+      "title": "制作作品集和面试材料",
+      "track": "core",
+      "dependencies": [
+        "TSK-044",
+        "TSK-046"
+      ],
+      "requirement_ids": [
+        "FR-01",
+        "FR-07",
+        "FR-12"
+      ],
+      "test_ids": [
+        "T-033"
+      ],
+      "done_when": "能解释关键设计和一次失败；简历数字都有依据。",
+      "status": "partial",
+      "evidence": [
+        "docs/portfolio.md"
+      ],
+      "remaining": "作品集材料已准备；无法替用户证明对实现的理解或完成面试演练。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-048",
+      "title": "建立维护与下一阶段决定",
+      "track": "core",
+      "dependencies": [
+        "TSK-045",
+        "TSK-046",
+        "TSK-047"
+      ],
+      "requirement_ids": [
+        "FR-07",
+        "FR-09",
+        "FR-12",
+        "FR-15"
+      ],
+      "test_ids": [
+        "T-036",
+        "T-038"
+      ],
+      "done_when": "无暗中遥测/自动外发；扩展条件与止损点明确。",
+      "status": "partial",
+      "evidence": [
+        "docs/maintenance.md"
+      ],
+      "remaining": "维护规则已写明；真实反馈与下一阶段选择尚未发生。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-049",
+      "title": "落实独立评审与适用手续",
+      "track": "optional_extension",
+      "dependencies": [
+        "TSK-029",
+        "TSK-039",
+        "TSK-048"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-13"
+      ],
+      "test_ids": [
+        "T-038",
+        "T-039"
+      ],
+      "done_when": "依赖未落实时转文档/内部替代，不假装已独立评估。",
+      "status": "blocked",
+      "evidence": [
+        "docs/trial-kit.md",
+        "evaluations/PROTOCOL.md"
+      ],
+      "remaining": "独立评审者尚未确认；模型/作者不能冒充独立人类。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-050",
+      "title": "构建并冻结24项目测试集",
+      "track": "optional_extension",
+      "dependencies": [
+        "TSK-039",
+        "TSK-049"
+      ],
+      "requirement_ids": [
+        "FR-04",
+        "FR-06",
+        "FR-13"
+      ],
+      "test_ids": [
+        "T-037"
+      ],
+      "done_when": "与开发/试跑项目隔离；材料用途与随机顺序可复现。",
+      "status": "partial",
+      "evidence": [
+        "evaluations/cases/test-candidates.json"
+      ],
+      "remaining": "24个候选项目已补全；还需审查、泄漏检查和正式版本冻结。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-051",
+      "title": "试评校准与锁定分析规则",
+      "track": "optional_extension",
+      "dependencies": [
+        "TSK-049",
+        "TSK-050"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-09",
+        "FR-12"
+      ],
+      "test_ids": [
+        "T-019",
+        "T-020",
+        "T-038"
+      ],
+      "done_when": "校准只用非测试资料；重叠比例和比较对固定；单输出/态度对/证据对工时单列。",
+      "status": "blocked",
+      "evidence": [
+        "evaluations/rubric.md"
+      ],
+      "remaining": "需要非测试集实际输出与评分者，完成校准和实际工时记录。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-052",
+      "title": "正式运行前准备检查",
+      "track": "optional_extension",
+      "dependencies": [
+        "TSK-040",
+        "TSK-050",
+        "TSK-051"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-14"
+      ],
+      "test_ids": [
+        "T-034",
+        "T-037"
+      ],
+      "done_when": "研究设计在结果前冻结；失败和重试策略明确。",
+      "status": "blocked",
+      "evidence": [
+        "evaluations/PROTOCOL.md"
+      ],
+      "remaining": "正式设计、模型预算、评审者及候选版尚未冻结。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-053",
+      "title": "运行第一批冻结测试",
+      "track": "optional_extension",
+      "dependencies": [
+        "TSK-052"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-07",
+        "FR-09",
+        "FR-12"
+      ],
+      "test_ids": [
+        "T-037"
+      ],
+      "done_when": "同模型和材料预算，独立上下文，不按表现淘汰结果。",
+      "status": "blocked",
+      "evidence": [
+        "evaluations/harness.py"
+      ],
+      "remaining": "正式运行尚未开始；需要已冻结协议与可用模型环境。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-054",
+      "title": "运行剩余冻结测试",
+      "track": "optional_extension",
+      "dependencies": [
+        "TSK-053"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-07",
+        "FR-09",
+        "FR-12"
+      ],
+      "test_ids": [
+        "T-037"
+      ],
+      "done_when": "运行数核对；若预算不足按事先规则停止并报告。",
+      "status": "blocked",
+      "evidence": [
+        "evaluations/harness.py"
+      ],
+      "remaining": "正式运行尚未开始；不能以生成任务清单算完成。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-055",
+      "title": "准备盲评数据包",
+      "track": "optional_extension",
+      "dependencies": [
+        "TSK-054"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-13"
+      ],
+      "test_ids": [
+        "T-038"
+      ],
+      "done_when": "方法映射受控；比较对保留所需输入差异；不修改正文；文风盲法限制说明。",
+      "status": "partial",
+      "evidence": [
+        "evaluations/harness.py",
+        "tests/test_evaluation.py"
+      ],
+      "remaining": "盲评导出工具通过虚构夹具检查；尚无真实输出包或评审。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-056",
+      "title": "核验运行数据完整性",
+      "track": "optional_extension",
+      "dependencies": [
+        "TSK-054",
+        "TSK-055"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-12"
+      ],
+      "test_ids": [
+        "T-027",
+        "T-037",
+        "T-038"
+      ],
+      "done_when": "每条可追溯；不把432相关观测算432独立项目。",
+      "status": "partial",
+      "evidence": [
+        "scripts/check_release.py",
+        "evaluations/PROTOCOL.md"
+      ],
+      "remaining": "案例分组与结构检查可运行；真实研究记录完整性尚无数据可检。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-057",
+      "title": "组织评分与记录分歧",
+      "track": "optional_extension",
+      "dependencies": [
+        "TSK-051",
+        "TSK-055",
+        "TSK-056"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-09",
+        "FR-12",
+        "FR-13"
+      ],
+      "test_ids": [
+        "T-038"
+      ],
+      "done_when": "外部时间单列；共识结果不冒充原始一致性。",
+      "status": "blocked",
+      "evidence": [
+        "evaluations/rubric.md"
+      ],
+      "remaining": "缺少实际输出及独立评审人员；不能生成虚构评分。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-058",
+      "title": "执行按项目配对分析",
+      "track": "optional_extension",
+      "dependencies": [
+        "TSK-057"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-07",
+        "FR-09",
+        "FR-12"
+      ],
+      "test_ids": [
+        "T-038"
+      ],
+      "done_when": "主要/探索指标分开；小样本和随机性限制明确。",
+      "status": "partial",
+      "evidence": [
+        "evaluations/harness.py",
+        "tests/test_evaluation.py"
+      ],
+      "remaining": "配对计算工具通过已知算例；没有真实评分可分析。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-059",
+      "title": "分析失败与领域差异",
+      "track": "optional_extension",
+      "dependencies": [
+        "TSK-058"
+      ],
+      "requirement_ids": [
+        "FR-04",
+        "FR-06",
+        "FR-12"
+      ],
+      "test_ids": [
+        "T-008",
+        "T-019",
+        "T-020",
+        "T-038"
+      ],
+      "done_when": "不精选成功；合理更新与态度不稳定分开。",
+      "status": "partial",
+      "evidence": [
+        "docs/failure-analysis.md"
+      ],
+      "remaining": "失败分析分类和记录法已准备；没有真实研究结果可分析。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-060",
+      "title": "独立复核研究结论",
+      "track": "optional_extension",
+      "dependencies": [
+        "TSK-058",
+        "TSK-059"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-13"
+      ],
+      "test_ids": [
+        "T-038"
+      ],
+      "done_when": "每个对外效果声明有对应分析；不足则降低声明。",
+      "status": "blocked",
+      "evidence": [
+        "docs/research-report.md"
+      ],
+      "remaining": "没有完整实证结果可作独立研究审查。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-061",
+      "title": "形成完整技术报告",
+      "track": "optional_extension",
+      "dependencies": [
+        "TSK-060"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-09",
+        "FR-12",
+        "FR-13"
+      ],
+      "test_ids": [
+        "T-037",
+        "T-038"
+      ],
+      "done_when": "清楚记录实际完成/未完成，论文形式待贡献确定。",
+      "status": "partial",
+      "evidence": [
+        "docs/research-report.md"
+      ],
+      "remaining": "已写准备阶段报告；正式研究未执行，不能称完整实证成果。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-062",
+      "title": "整理导师沟通与投稿准备",
+      "track": "optional_extension",
+      "dependencies": [
+        "TSK-061"
+      ],
+      "requirement_ids": [
+        "FR-06",
+        "FR-12"
+      ],
+      "test_ids": [
+        "T-038"
+      ],
+      "done_when": "只准备材料；不未经授权联系，不承诺录用。",
+      "status": "done",
+      "evidence": [
+        "docs/research-brief.md"
+      ],
+      "remaining": "该具体交付项已具备；不代表整体产品行为或实证有效性已经验证。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-063",
+      "title": "更新英文作品集并模拟演示",
+      "track": "optional_extension",
+      "dependencies": [
+        "TSK-047",
+        "TSK-061"
+      ],
+      "requirement_ids": [
+        "FR-01",
+        "FR-07",
+        "FR-12"
+      ],
+      "test_ids": [
+        "T-033"
+      ],
+      "done_when": "用户能解释本人贡献和限制，不夸大AI生成实现。",
+      "status": "partial",
+      "evidence": [
+        "docs/portfolio.md"
+      ],
+      "remaining": "英文材料与演示步骤已准备；需所有者实际讲解并确认贡献。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    },
+    {
+      "id": "TSK-064",
+      "title": "确定下一版或有限维护",
+      "track": "optional_extension",
+      "dependencies": [
+        "TSK-048",
+        "TSK-059",
+        "TSK-061",
+        "TSK-063"
+      ],
+      "requirement_ids": [
+        "FR-07",
+        "FR-09",
+        "FR-12"
+      ],
+      "test_ids": [
+        "T-036",
+        "T-038"
+      ],
+      "done_when": "基于使用价值和投入，用户决定是否改变四领域承诺。",
+      "status": "owner_review",
+      "evidence": [
+        "docs/maintenance.md"
+      ],
+      "remaining": "下一阶段选项已准备；最终产品定位与维护投入由所有者决定。",
+      "reviewer": "implementation author/AI; independent review not implied",
+      "actual_human_hours": null
+    }
+  ]
+}

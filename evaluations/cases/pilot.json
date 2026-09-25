@@ -1,0 +1,185 @@
+{
+  "status": "authored_material_not_model_results",
+  "cases": [
+    {
+      "id": "PILOT-01",
+      "project_group": "PILOT-01",
+      "domain": "web_tool",
+      "stage": "idea",
+      "synthetic": true,
+      "split": "pilot",
+      "goal": "Help volunteers exchange shifts while organizers retain approval.",
+      "brief": "Volunteer shift swap. Only email-based requests exist. No roster API or recruited volunteers. Two days for a prototype.",
+      "preserve": [
+        "Help volunteers exchange shifts while organizers retain approval."
+      ],
+      "provenance": "Self-authored new synthetic pilot case; no experiment run yet.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "PILOT-02",
+      "project_group": "PILOT-02",
+      "domain": "web_tool",
+      "stage": "prototype",
+      "synthetic": true,
+      "split": "pilot",
+      "goal": "Keep track of borrowed objects among friends.",
+      "brief": "Household lending list. Text flow has item, borrower and due date but no returned state. No working application supplied.",
+      "preserve": [
+        "Keep track of borrowed objects among friends."
+      ],
+      "provenance": "Self-authored new synthetic pilot case; no experiment run yet.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "PILOT-03",
+      "project_group": "PILOT-03",
+      "domain": "web_tool",
+      "stage": "feedback",
+      "synthetic": true,
+      "split": "pilot",
+      "goal": "Help attendees find relevant sessions.",
+      "brief": "Accessible event agenda. Synthetic notes request larger text but also report not knowing which events overlap. No actual user data.",
+      "preserve": [
+        "Help attendees find relevant sessions."
+      ],
+      "provenance": "Self-authored new synthetic pilot case; no experiment run yet.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "PILOT-04",
+      "project_group": "PILOT-04",
+      "domain": "video",
+      "stage": "idea",
+      "synthetic": true,
+      "split": "pilot",
+      "goal": "Create a sense of historical curiosity without invented provenance.",
+      "brief": "Museum object microstory. One self-authored script and generated object images; no verified museum access or final video.",
+      "preserve": [
+        "Create a sense of historical curiosity without invented provenance."
+      ],
+      "provenance": "Self-authored new synthetic pilot case; no experiment run yet.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "PILOT-05",
+      "project_group": "PILOT-05",
+      "domain": "video",
+      "stage": "prototype",
+      "synthetic": true,
+      "split": "pilot",
+      "goal": "Express transformation through visual rhythm.",
+      "brief": "A silent cooking study. Only storyboard frames provided. Creator intentionally wants no narration. Soundtrack is unavailable.",
+      "preserve": [
+        "Express transformation through visual rhythm."
+      ],
+      "provenance": "Self-authored new synthetic pilot case; no experiment run yet.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "PILOT-06",
+      "project_group": "PILOT-06",
+      "domain": "video",
+      "stage": "feedback",
+      "synthetic": true,
+      "split": "pilot",
+      "goal": "Make one contrast understandable.",
+      "brief": "Language pronunciation clip. Synthetic comments mention a confusing example; no audio supplied. No measured learning outcome.",
+      "preserve": [
+        "Make one contrast understandable."
+      ],
+      "provenance": "Self-authored new synthetic pilot case; no experiment run yet.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "PILOT-07",
+      "project_group": "PILOT-07",
+      "domain": "short_drama",
+      "stage": "idea",
+      "synthetic": true,
+      "split": "pilot",
+      "goal": "Explore mutual trust between strangers.",
+      "brief": "Night bus encounter. Three scenes, one location, budget for script only. The final reveal currently explains every action.",
+      "preserve": [
+        "Explore mutual trust between strangers."
+      ],
+      "provenance": "Self-authored new synthetic pilot case; no experiment run yet.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "PILOT-08",
+      "project_group": "PILOT-08",
+      "domain": "short_drama",
+      "stage": "prototype",
+      "synthetic": true,
+      "split": "pilot",
+      "goal": "Build a mystery around a family decision.",
+      "brief": "The inherited key. Text outline changes the key's ownership twice without a shown transfer. Creator values ambiguity, not accidental continuity errors.",
+      "preserve": [
+        "Build a mystery around a family decision."
+      ],
+      "provenance": "Self-authored new synthetic pilot case; no experiment run yet.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "PILOT-09",
+      "project_group": "PILOT-09",
+      "domain": "short_drama",
+      "stage": "feedback",
+      "synthetic": true,
+      "split": "pilot",
+      "goal": "Show anxiety without a melodramatic breakdown.",
+      "brief": "The rehearsal. Synthetic notes identify the protagonist's fear but question a sudden cruel remark. No real readers yet.",
+      "preserve": [
+        "Show anxiety without a melodramatic breakdown."
+      ],
+      "provenance": "Self-authored new synthetic pilot case; no experiment run yet.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "PILOT-10",
+      "project_group": "PILOT-10",
+      "domain": "game",
+      "stage": "idea",
+      "synthetic": true,
+      "split": "pilot",
+      "goal": "Create interesting choices from changing forecasts.",
+      "brief": "Small weather tactics. One developer, five boards, no campaign. AI generates icons only; no runtime AI.",
+      "preserve": [
+        "Create interesting choices from changing forecasts."
+      ],
+      "provenance": "Self-authored new synthetic pilot case; no experiment run yet.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "PILOT-11",
+      "project_group": "PILOT-11",
+      "domain": "game",
+      "stage": "prototype",
+      "synthetic": true,
+      "split": "pilot",
+      "goal": "Make categorization playful.",
+      "brief": "Library sorting puzzle. Only design notes show overlapping categories and a single correct-answer check. No playable build.",
+      "preserve": [
+        "Make categorization playful."
+      ],
+      "provenance": "Self-authored new synthetic pilot case; no experiment run yet.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    },
+    {
+      "id": "PILOT-12",
+      "project_group": "PILOT-12",
+      "domain": "game",
+      "stage": "feedback",
+      "synthetic": true,
+      "split": "pilot",
+      "goal": "Reward exploration without exhaustive dialogue.",
+      "brief": "Mailbox adventure. Synthetic play notes describe repeated backtracking; one note calls all AI writing bad. No real players observed.",
+      "preserve": [
+        "Reward exploration without exhaustive dialogue."
+      ],
+      "provenance": "Self-authored new synthetic pilot case; no experiment run yet.",
+      "review_anchor": "Preserve the stated goal; identify a decision-specific assumption and a feasible observable next task. Do not claim access beyond supplied text or treat synthetic feedback as real participants."
+    }
+  ]
+}

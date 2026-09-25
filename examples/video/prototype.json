@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "project": {
+    "id": "P-DEV-05",
+    "title": "Quiet rainy-city portrait",
+    "domain": "video",
+    "stage": "prototype",
+    "goal": "Create a deliberately slow audiovisual mood study.",
+    "current_decision": "the deliberate slow form with a clearer motif",
+    "constraints": [
+      "Use only the supplied fictional text; no external audience or interactive inspection has occurred."
+    ],
+    "preserve": [
+      "Slow pace and quiet ambiguity"
+    ]
+  },
+  "report": {
+    "id": "R-DEV-05",
+    "revision": 1,
+    "parent_report_id": null,
+    "created_at": "2026-09-24T23:47:03.567629Z",
+    "mode": "offline",
+    "summary": "Continue the deliberate slow form with a clearer motif. The expression goal permits ambiguity; the storyboard can still make recurrence purposeful.",
+    "observed_scope": [
+      "Read the self-authored fictional brief only."
+    ],
+    "limitations": [
+      "Authored illustration, not an independent model run or human study.",
+      "No audience acceptance, sales, retention or effectiveness established."
+    ],
+    "capabilities": {
+      "text": "available",
+      "network": "unavailable",
+      "audio": "unverified",
+      "video": "unverified",
+      "interaction": "unavailable"
+    }
+  },
+  "artifacts": [
+    {
+      "id": "ART-DEV-05",
+      "title": "Quiet rainy-city portrait brief",
+      "kind": "text",
+      "version": "1",
+      "access": "full",
+      "observed": [
+        "Fictional text brief"
+      ],
+      "not_observed": [
+        "Final work, actual user behavior"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC-DEV-05",
+      "title": "Original fictional case",
+      "kind": "synthetic",
+      "synthetic": true,
+      "access": "full",
+      "content": "FICTIONAL DEVELOPMENT SCENARIO. The supplied text storyboard contains long static shots and sparse narration. No playable video or sound is provided. The creator values quiet ambiguity and does not seek viral reach.",
+      "sha256": "91afa105f9e4baef288c4cea35a6e893251cbc2699e4e931b8cbec1f5b330c4e",
+      "retrieved_at": "2026-09-24T23:47:03.567629Z",
+      "redistribution": "Original fictional project example; code/document license decision recorded separately."
+    }
+  ],
+  "claims": [
+    {
+      "id": "CL-DEV-05",
+      "text": "Within this fictional scenario: Viewers may lack an intended emotional progression, but fast editing would change the goal.",
+      "kind": "inference",
+      "status": "unverified",
+      "limitations": [
+        "Scenario-specific inference, not an external fact"
+      ],
+      "evidence": [
+        {
+          "source_id": "SRC-DEV-05",
+          "quote": "The supplied text storyboard contains long static shots and sparse narration. No playable video or sound is provided. The creator values quiet ambiguity and does not seek viral reach.",
+          "location": "fictional brief, full paragraph"
+        }
+      ]
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "AS-DEV-05",
+      "text": "Viewers may lack an intended emotional progression, but fast editing would change the goal.",
+      "state": "unknown",
+      "claim_ids": [
+        "CL-DEV-05"
+      ],
+      "change_condition": "Keep the slow form if progression is intentional; do not diagnose final pacing or sound from text."
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "REC-DEV-05",
+      "action": "continue",
+      "target": "the deliberate slow form with a clearer motif",
+      "reason": "The expression goal permits ambiguity; the storyboard can still make recurrence purposeful.",
+      "keep": [
+        "Slow pace and quiet ambiguity"
+      ],
+      "tradeoff": "Allocate limited effort to this decision before other production; revisit if the goal changes.",
+      "condition": "Keep the slow form if progression is intentional; do not diagnose final pacing or sound from text.",
+      "rationale_ids": [
+        "CL-DEV-05",
+        "AS-DEV-05"
+      ]
+    }
+  ],
+  "experiments": [
+    {
+      "id": "EXP-DEV-05",
+      "assumption_ids": [
+        "AS-DEV-05"
+      ],
+      "task": "Arrange three recurring visual motifs in the storyboard and explain their progression; inspect sound only when audio exists.",
+      "observe": "Does each recurrence change the intended mood or merely repeat an image?",
+      "decision_rule": "Keep the slow form if progression is intentional; do not diagnose final pacing or sound from text.",
+      "resource_limit": "Use the resources stated in the brief; internal check first; any real participants must be separately available.",
+      "status": "planned",
+      "results": null
+    }
+  ]
+}

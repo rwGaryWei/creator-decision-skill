@@ -1,0 +1,442 @@
+{
+  "document_status": "proposed_product_requirements_not_implemented_claims",
+  "acceptance_status": "All thresholds and criteria are proposed for this project, not established industry standards.",
+  "requirements": [
+    {
+      "id": "FR-01",
+      "title": "按用户目标建立本轮决策范围",
+      "priority": "P0",
+      "domains": [
+        "web_tool",
+        "video",
+        "short_drama",
+        "game"
+      ],
+      "acceptance": [
+        "明确区分作者目标、本轮决定、已确认约束和关键未知。",
+        "不强制将表达、娱乐、学习或作品集目标转换为商业收入。",
+        "重要目标缺失时提问，不默认为已经确认。"
+      ],
+      "test_ids": [
+        "AC-FR-01"
+      ],
+      "detailed_test_ids": [
+        "T-001",
+        "T-021",
+        "T-036"
+      ]
+    },
+    {
+      "id": "FR-02",
+      "title": "支持想法、原型和反馈三个入口",
+      "priority": "P0",
+      "domains": [
+        "web_tool",
+        "video",
+        "short_drama",
+        "game"
+      ],
+      "acceptance": [
+        "三类输入均能产生适合当前阶段的建议。",
+        "想法阶段不假装已经观察实际体验；原型阶段不只复述想法；反馈阶段明确更新原假设。",
+        "入口切换时保留用户已确认信息。"
+      ],
+      "test_ids": [
+        "AC-FR-02"
+      ],
+      "detailed_test_ids": [
+        "T-003",
+        "T-031",
+        "T-036",
+        "T-039"
+      ]
+    },
+    {
+      "id": "FR-03",
+      "title": "只追问会影响当前判断的重要信息",
+      "priority": "P0",
+      "domains": [
+        "web_tool",
+        "video",
+        "short_drama",
+        "game"
+      ],
+      "acceptance": [
+        "不重复询问对话中已确认信息。",
+        "关键未知先提问或提供明确条件分支，低影响未知不阻塞全部任务。",
+        "用户不知道答案时给出可比较选项，不伪造其偏好。"
+      ],
+      "test_ids": [
+        "AC-FR-03"
+      ],
+      "detailed_test_ids": [
+        "T-001",
+        "T-002",
+        "T-032"
+      ]
+    },
+    {
+      "id": "FR-04",
+      "title": "提供四领域有区别的判断",
+      "priority": "P0",
+      "domains": [
+        "web_tool",
+        "video",
+        "short_drama",
+        "game"
+      ],
+      "acceptance": [
+        "网页覆盖任务完成和替代，视频覆盖观看承诺和回报，短剧覆盖人物因果与续看，游戏覆盖循环、选择和反馈。",
+        "同一通用想法换领域后，问题、诊断和验证任务必须随之改变。",
+        "跨领域作品先明确本轮主体验，并保留关联维度。"
+      ],
+      "test_ids": [
+        "AC-FR-04"
+      ],
+      "detailed_test_ids": [
+        "T-004",
+        "T-005",
+        "T-006",
+        "T-007",
+        "T-008",
+        "T-031",
+        "T-035",
+        "T-036",
+        "T-039"
+      ]
+    },
+    {
+      "id": "FR-05",
+      "title": "按实际接触材料声明观察边界",
+      "priority": "P0",
+      "domains": [
+        "web_tool",
+        "video",
+        "short_drama",
+        "game"
+      ],
+      "acceptance": [
+        "明确哪些链接、文件或内容已实际读取以及哪些无法访问。",
+        "未看视频、未听音频、未运行原型时不声称已观察相应体验。",
+        "材料不足时仍可对已提供部分给出范围明确的意见。"
+      ],
+      "test_ids": [
+        "AC-FR-05"
+      ],
+      "detailed_test_ids": [
+        "T-005",
+        "T-007",
+        "T-009",
+        "T-010",
+        "T-030",
+        "T-036"
+      ]
+    },
+    {
+      "id": "FR-06",
+      "title": "区分事实、证据、解释和假设",
+      "priority": "P0",
+      "domains": [
+        "web_tool",
+        "video",
+        "short_drama",
+        "game"
+      ],
+      "acceptance": [
+        "重点外部事实有可追溯来源或明确标为未经核实。",
+        "相似案例说明可比点和差异，不把相关性写成因果。",
+        "不虚构引用、测试结果、竞品功能、用户或调查过程。"
+      ],
+      "test_ids": [
+        "AC-FR-06"
+      ],
+      "detailed_test_ids": [
+        "T-009",
+        "T-011",
+        "T-012",
+        "T-013",
+        "T-019",
+        "T-020",
+        "T-023",
+        "T-027",
+        "T-028",
+        "T-030",
+        "T-034",
+        "T-035",
+        "T-036",
+        "T-037",
+        "T-038"
+      ]
+    },
+    {
+      "id": "FR-07",
+      "title": "输出有条件且明确的决策卡",
+      "priority": "P0",
+      "domains": [
+        "web_tool",
+        "video",
+        "short_drama",
+        "game"
+      ],
+      "acceptance": [
+        "包含本轮决定、建议对象、理由、条件、关键未知和下一步行动。",
+        "建议能落到继续、缩小、调整、先验证或暂停某项投入，不只给泛泛评语。",
+        "不将主观评分或证据不足转换成成功概率。"
+      ],
+      "test_ids": [
+        "AC-FR-07"
+      ],
+      "detailed_test_ids": [
+        "T-004",
+        "T-012",
+        "T-014",
+        "T-016",
+        "T-019",
+        "T-033",
+        "T-036",
+        "T-037",
+        "T-039"
+      ]
+    },
+    {
+      "id": "FR-08",
+      "title": "保护创意核心并给出有取舍的改法",
+      "priority": "P0",
+      "domains": [
+        "web_tool",
+        "video",
+        "short_drama",
+        "game"
+      ],
+      "acceptance": [
+        "先明确值得保留或用户不愿牺牲的部分。",
+        "每个改法说明保留、改变、收益假设、代价和适用条件。",
+        "备选之间存在实质差异；改变已确认核心时明确交给用户选择。"
+      ],
+      "test_ids": [
+        "AC-FR-08"
+      ],
+      "detailed_test_ids": [
+        "T-006",
+        "T-015",
+        "T-016",
+        "T-036"
+      ]
+    },
+    {
+      "id": "FR-09",
+      "title": "提供可执行的验证与转向条件",
+      "priority": "P0",
+      "domains": [
+        "web_tool",
+        "video",
+        "short_drama",
+        "game"
+      ],
+      "acceptance": [
+        "行动包含要验证的假设、具体任务、观察结果及继续或调整条件。",
+        "行动尊重用户已确认资源和材料可得性，不默认能够接触大量用户。",
+        "拟议阈值标为本项目判断规则，不冒充行业事实；允许结果不确定。"
+      ],
+      "test_ids": [
+        "AC-FR-09"
+      ],
+      "detailed_test_ids": [
+        "T-004",
+        "T-005",
+        "T-006",
+        "T-016",
+        "T-017",
+        "T-036",
+        "T-037"
+      ]
+    },
+    {
+      "id": "FR-10",
+      "title": "拆解 AI 制作的收益与负担",
+      "priority": "P0",
+      "domains": [
+        "web_tool",
+        "video",
+        "short_drama",
+        "game"
+      ],
+      "acceptance": [
+        "按内容、代码、探索或自动化等实际使用环节分析。",
+        "同时考虑节省工作与筛选、修正、一致性、维护及信任成本。",
+        "仅改变是否使用 AI 的标签时，不在缺乏新证据的情况下改变作品质量结论。"
+      ],
+      "test_ids": [
+        "AC-FR-10"
+      ],
+      "detailed_test_ids": [
+        "T-007",
+        "T-018",
+        "T-036"
+      ]
+    },
+    {
+      "id": "FR-11",
+      "title": "记录人工接受、修改、否决和暂缓",
+      "priority": "P0",
+      "domains": [
+        "web_tool",
+        "video",
+        "short_drama",
+        "game"
+      ],
+      "acceptance": [
+        "系统建议与用户决定分开表达。",
+        "只有用户明确表达的决定才记录为人工决定，未回复不等于接受。",
+        "用户可说明理由并修改建议，原始建议仍可追溯。"
+      ],
+      "test_ids": [
+        "AC-FR-11"
+      ],
+      "detailed_test_ids": [
+        "T-003",
+        "T-024",
+        "T-025",
+        "T-026",
+        "T-027",
+        "T-029",
+        "T-036"
+      ]
+    },
+    {
+      "id": "FR-12",
+      "title": "根据新证据复盘并解释变化",
+      "priority": "P0",
+      "domains": [
+        "web_tool",
+        "video",
+        "short_drama",
+        "game"
+      ],
+      "acceptance": [
+        "新反馈与原假设关联，说明支持、削弱或尚不能判断。",
+        "结论改变时指出新信息及其影响，不静默改写历史。",
+        "用户仅改变自信或悲观语气、未增加证据时，不无理由翻转核心判断。"
+      ],
+      "test_ids": [
+        "AC-FR-12"
+      ],
+      "detailed_test_ids": [
+        "T-003",
+        "T-019",
+        "T-020",
+        "T-021",
+        "T-026",
+        "T-027",
+        "T-029",
+        "T-035",
+        "T-036",
+        "T-037",
+        "T-038"
+      ]
+    },
+    {
+      "id": "FR-13",
+      "title": "隔离模拟反馈与真实用户证据",
+      "priority": "P0",
+      "domains": [
+        "web_tool",
+        "video",
+        "short_drama",
+        "game"
+      ],
+      "acceptance": [
+        "虚构场景、模拟立场和合成案例显著标示。",
+        "模拟观众意见不能计入真实测试结果或市场认可证据。",
+        "无真实反馈时明确其限制，并提供仍可完成的内部检查或外部验证计划。"
+      ],
+      "test_ids": [
+        "AC-FR-13"
+      ],
+      "detailed_test_ids": [
+        "T-013",
+        "T-022",
+        "T-036",
+        "T-038"
+      ]
+    },
+    {
+      "id": "FR-14",
+      "title": "把外部材料当作待分析内容而非授权指令",
+      "priority": "P0",
+      "domains": [
+        "web_tool",
+        "video",
+        "short_drama",
+        "game"
+      ],
+      "acceptance": [
+        "网页、评论或文档中的忽略规则、伪造结论、发送数据等指令不改变任务。",
+        "能够照常分析含恶意指令的材料中与任务相关的内容。",
+        "不因材料文字自动发布成果、联系他人或提交私人信息。"
+      ],
+      "test_ids": [
+        "AC-FR-14"
+      ],
+      "detailed_test_ids": [
+        "T-023",
+        "T-024",
+        "T-028",
+        "T-034",
+        "T-036"
+      ]
+    },
+    {
+      "id": "FR-15",
+      "title": "提供短版优先且可展开的结果",
+      "priority": "P0",
+      "domains": [
+        "web_tool",
+        "video",
+        "short_drama",
+        "game"
+      ],
+      "acceptance": [
+        "用户仅阅读短决策卡即可识别建议、理由、关键未知和下一步。",
+        "详细依据、备选和复盘可按需查阅。",
+        "不强制填满不相关栏目，避免重复背景和无优先级的长清单。"
+      ],
+      "test_ids": [
+        "AC-FR-15"
+      ],
+      "detailed_test_ids": [
+        "T-002",
+        "T-014",
+        "T-028",
+        "T-030",
+        "T-031",
+        "T-032",
+        "T-033",
+        "T-036",
+        "T-039"
+      ]
+    },
+    {
+      "id": "FR-16",
+      "title": "按共同目标比较多个候选想法",
+      "priority": "P1",
+      "domains": [
+        "web_tool",
+        "video",
+        "short_drama",
+        "game"
+      ],
+      "acceptance": [
+        "比较前核对共同目标、资源和不可牺牲条件。",
+        "展示不同方案的证据、未知与取舍，不使用不可解释的总分排名。",
+        "明确推荐先验证哪项及原因，用户保留最终选择。"
+      ],
+      "test_ids": [
+        "AC-FR-16"
+      ],
+      "detailed_test_ids": [
+        "T-040"
+      ]
+    }
+  ]
+}
