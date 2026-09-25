@@ -3,8 +3,8 @@
   "version": "0.1.0-alpha",
   "note": "48 core + 16 optional; document preparation is not human review or experimental completion.",
   "summary": {
-    "owner_review": 3,
-    "done": 26,
+    "owner_review": 2,
+    "done": 27,
     "partial": 27,
     "blocked": 8
   },
@@ -28,7 +28,8 @@
       "done_when": "用户确认首版四领域和三入口；不可牺牲目标与未知分开。",
       "status": "owner_review",
       "evidence": [
-        "docs/scope.md"
+        "docs/scope.md",
+        "docs/owner-review.md"
       ],
       "remaining": "请所有者审查具体目标与不可牺牲内容；四领域范围已按请求实现。",
       "reviewer": "implementation author/AI; independent review not implied",
@@ -1008,12 +1009,13 @@
         "T-038"
       ],
       "done_when": "根据资源和问题决定，正式结果前固定规模，允许无优势。",
-      "status": "owner_review",
+      "status": "done",
       "evidence": [
-        "docs/maintenance.md"
+        "docs/maintenance.md",
+        "docs/owner-review.md"
       ],
-      "remaining": "已有分支建议；由所有者结合试跑、预算和独立评审资源选择。",
-      "reviewer": "implementation author/AI; independent review not implied",
+      "remaining": "所有者已选择先完善产品、开展作者内部评审并后置正式研究；本项仅完成路线决定。正式规模未冻结，TSK-035校准仍未完成；后续启动研究须另行满足准备条件。",
+      "reviewer": "owner: route decision; implementation author/AI: recording",
       "actual_human_hours": null
     },
     {
@@ -1076,7 +1078,8 @@
       "status": "blocked",
       "evidence": [
         "docs/behavioral-checks.json",
-        "docs/validation.md"
+        "docs/validation.md",
+        "docs/owner-review.md"
       ],
       "remaining": "工程检查可重跑；模型行为回归和人工有用性门槛未完成。",
       "reviewer": "implementation author/AI; independent review not implied",
@@ -1379,9 +1382,10 @@
       "status": "blocked",
       "evidence": [
         "docs/trial-kit.md",
-        "evaluations/PROTOCOL.md"
+        "evaluations/PROTOCOL.md",
+        "docs/owner-review.md"
       ],
-      "remaining": "独立评审者尚未确认；模型/作者不能冒充独立人类。",
+      "remaining": "按所有者决定后置正式研究；独立评审者尚未确认；模型/作者不能冒充独立人类。",
       "reviewer": "implementation author/AI; independent review not implied",
       "actual_human_hours": null
     },
@@ -1431,9 +1435,10 @@
       "done_when": "校准只用非测试资料；重叠比例和比较对固定；单输出/态度对/证据对工时单列。",
       "status": "blocked",
       "evidence": [
-        "evaluations/rubric.md"
+        "evaluations/rubric.md",
+        "docs/owner-review.md"
       ],
-      "remaining": "需要非测试集实际输出与评分者，完成校准和实际工时记录。",
+      "remaining": "按所有者决定后置正式研究；需要非测试集实际输出与评分者，完成校准和实际工时记录。",
       "reviewer": "implementation author/AI; independent review not implied",
       "actual_human_hours": null
     },
@@ -1457,9 +1462,10 @@
       "done_when": "研究设计在结果前冻结；失败和重试策略明确。",
       "status": "blocked",
       "evidence": [
-        "evaluations/PROTOCOL.md"
+        "evaluations/PROTOCOL.md",
+        "docs/owner-review.md"
       ],
-      "remaining": "正式设计、模型预算、评审者及候选版尚未冻结。",
+      "remaining": "按所有者决定后置正式研究；正式设计、模型预算、评审者及候选版尚未冻结。",
       "reviewer": "implementation author/AI; independent review not implied",
       "actual_human_hours": null
     },
@@ -1482,9 +1488,10 @@
       "done_when": "同模型和材料预算，独立上下文，不按表现淘汰结果。",
       "status": "blocked",
       "evidence": [
-        "evaluations/harness.py"
+        "evaluations/harness.py",
+        "docs/owner-review.md"
       ],
-      "remaining": "正式运行尚未开始；需要已冻结协议与可用模型环境。",
+      "remaining": "按所有者决定后置正式研究；正式运行尚未开始；需要已冻结协议与可用模型环境。",
       "reviewer": "implementation author/AI; independent review not implied",
       "actual_human_hours": null
     },
@@ -1507,9 +1514,10 @@
       "done_when": "运行数核对；若预算不足按事先规则停止并报告。",
       "status": "blocked",
       "evidence": [
-        "evaluations/harness.py"
+        "evaluations/harness.py",
+        "docs/owner-review.md"
       ],
-      "remaining": "正式运行尚未开始；不能以生成任务清单算完成。",
+      "remaining": "按所有者决定后置正式研究；正式运行尚未开始；不能以生成任务清单算完成。",
       "reviewer": "implementation author/AI; independent review not implied",
       "actual_human_hours": null
     },
@@ -1589,9 +1597,10 @@
       "done_when": "外部时间单列；共识结果不冒充原始一致性。",
       "status": "blocked",
       "evidence": [
-        "evaluations/rubric.md"
+        "evaluations/rubric.md",
+        "docs/owner-review.md"
       ],
-      "remaining": "缺少实际输出及独立评审人员；不能生成虚构评分。",
+      "remaining": "按所有者决定后置正式研究；缺少实际输出及独立评审人员；不能生成虚构评分。",
       "reviewer": "implementation author/AI; independent review not implied",
       "actual_human_hours": null
     },
@@ -1670,9 +1679,10 @@
       "evidence": [
         "docs/research-report.md",
         "docs/pilot-findings.md",
-        "evaluations/results/pilot-2026-09-25/README.md"
+        "evaluations/results/pilot-2026-09-25/README.md",
+        "docs/owner-review.md"
       ],
-      "remaining": "探索性报告有36次输出；独立人类审查和正式效应结论仍缺少必要评分。",
+      "remaining": "按所有者决定后置正式研究；探索性报告有36次输出；独立人类审查和正式效应结论仍缺少必要评分。",
       "reviewer": "implementation author/AI; independent review not implied",
       "actual_human_hours": null
     },
@@ -1774,7 +1784,8 @@
       "done_when": "基于使用价值和投入，用户决定是否改变四领域承诺。",
       "status": "owner_review",
       "evidence": [
-        "docs/maintenance.md"
+        "docs/maintenance.md",
+        "docs/owner-review.md"
       ],
       "remaining": "下一阶段选项已准备；最终产品定位与维护投入由所有者决定。",
       "reviewer": "implementation author/AI; independent review not implied",

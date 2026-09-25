@@ -1,18 +1,18 @@
 # 64 项任务实施进度 / Implementation ledger
 
-更新：2026-09-25 · 0.1.0-alpha。48项主线＋16项可选全部保留。
+更新：2026-09-25 · 0.1.0-alpha + 未发布修订。48项主线＋16项可选全部保留。
 
 `done`：该具体交付完成；`partial`：已有产物但未达到完整验收；`blocked`：缺少实际研究、独立人员等条件；`owner_review`：需要所有者作出实际判断。文件、程序检查和模型输出不等于独立人工评价。
 
-Counts: owner_review=3, done=26, partial=27, blocked=8
+Counts: owner_review=2, done=27, partial=27, blocked=8
 
-36次探索性模型试跑已执行。人工工时与独立评分未知，不以0代填。试跑之后的两项指令修订尚未重新进行模型比较。
+36次探索性模型试跑已执行。人工工时与独立评分未知，不以0代填。试跑之后的指令修订尚未重新进行模型比较。当前先完善产品、开展作者内部评审，正式研究后置；详见[路线与审查记录](owner-review.md)。
 
 ## TSK-001 · 确认产品目标与范围
 
 - Track: core · Status: **owner_review**
 - 完成条件：用户确认首版四领域和三入口；不可牺牲目标与未知分开。
-- 证据：[docs/scope.md](../docs/scope.md)
+- 证据：[docs/scope.md](../docs/scope.md), [docs/owner-review.md](../docs/owner-review.md)
 - 状态说明／剩余：请所有者审查具体目标与不可牺牲内容；四领域范围已按请求实现。
 
 ## TSK-002 · 整理相关项目与研究定位
@@ -255,10 +255,10 @@ Counts: owner_review=3, done=26, partial=27, blocked=8
 
 ## TSK-036 · 决定扩展研究与产品修订
 
-- Track: core · Status: **owner_review**
+- Track: core · Status: **done**
 - 完成条件：根据资源和问题决定，正式结果前固定规模，允许无优势。
-- 证据：[docs/maintenance.md](../docs/maintenance.md)
-- 状态说明／剩余：已有分支建议；由所有者结合试跑、预算和独立评审资源选择。
+- 证据：[docs/maintenance.md](../docs/maintenance.md), [docs/owner-review.md](../docs/owner-review.md)
+- 状态说明／剩余：所有者已选择先完善产品、开展作者内部评审并后置正式研究；本项仅完成路线决定。正式规模未冻结，TSK-035校准仍未完成；后续启动研究须另行满足准备条件。
 
 ## TSK-037 · 修复试跑暴露的关键问题
 
@@ -271,7 +271,7 @@ Counts: owner_review=3, done=26, partial=27, blocked=8
 
 - Track: core · Status: **blocked**
 - 完成条件：无未解决S0/S1；四领域达内部行动质量门槛。
-- 证据：[docs/behavioral-checks.json](../docs/behavioral-checks.json), [docs/validation.md](../docs/validation.md)
+- 证据：[docs/behavioral-checks.json](../docs/behavioral-checks.json), [docs/validation.md](../docs/validation.md), [docs/owner-review.md](../docs/owner-review.md)
 - 状态说明／剩余：工程检查可重跑；模型行为回归和人工有用性门槛未完成。
 
 ## TSK-039 · 冻结正式研究协议草案
@@ -348,8 +348,8 @@ Counts: owner_review=3, done=26, partial=27, blocked=8
 
 - Track: optional_extension · Status: **blocked**
 - 完成条件：依赖未落实时转文档/内部替代，不假装已独立评估。
-- 证据：[docs/trial-kit.md](../docs/trial-kit.md), [evaluations/PROTOCOL.md](../evaluations/PROTOCOL.md)
-- 状态说明／剩余：独立评审者尚未确认；模型/作者不能冒充独立人类。
+- 证据：[docs/trial-kit.md](../docs/trial-kit.md), [evaluations/PROTOCOL.md](../evaluations/PROTOCOL.md), [docs/owner-review.md](../docs/owner-review.md)
+- 状态说明／剩余：按所有者决定后置正式研究；独立评审者尚未确认；模型/作者不能冒充独立人类。
 
 ## TSK-050 · 构建并冻结24项目测试集
 
@@ -362,29 +362,29 @@ Counts: owner_review=3, done=26, partial=27, blocked=8
 
 - Track: optional_extension · Status: **blocked**
 - 完成条件：校准只用非测试资料；重叠比例和比较对固定；单输出/态度对/证据对工时单列。
-- 证据：[evaluations/rubric.md](../evaluations/rubric.md)
-- 状态说明／剩余：需要非测试集实际输出与评分者，完成校准和实际工时记录。
+- 证据：[evaluations/rubric.md](../evaluations/rubric.md), [docs/owner-review.md](../docs/owner-review.md)
+- 状态说明／剩余：按所有者决定后置正式研究；需要非测试集实际输出与评分者，完成校准和实际工时记录。
 
 ## TSK-052 · 正式运行前准备检查
 
 - Track: optional_extension · Status: **blocked**
 - 完成条件：研究设计在结果前冻结；失败和重试策略明确。
-- 证据：[evaluations/PROTOCOL.md](../evaluations/PROTOCOL.md)
-- 状态说明／剩余：正式设计、模型预算、评审者及候选版尚未冻结。
+- 证据：[evaluations/PROTOCOL.md](../evaluations/PROTOCOL.md), [docs/owner-review.md](../docs/owner-review.md)
+- 状态说明／剩余：按所有者决定后置正式研究；正式设计、模型预算、评审者及候选版尚未冻结。
 
 ## TSK-053 · 运行第一批冻结测试
 
 - Track: optional_extension · Status: **blocked**
 - 完成条件：同模型和材料预算，独立上下文，不按表现淘汰结果。
-- 证据：[evaluations/harness.py](../evaluations/harness.py)
-- 状态说明／剩余：正式运行尚未开始；需要已冻结协议与可用模型环境。
+- 证据：[evaluations/harness.py](../evaluations/harness.py), [docs/owner-review.md](../docs/owner-review.md)
+- 状态说明／剩余：按所有者决定后置正式研究；正式运行尚未开始；需要已冻结协议与可用模型环境。
 
 ## TSK-054 · 运行剩余冻结测试
 
 - Track: optional_extension · Status: **blocked**
 - 完成条件：运行数核对；若预算不足按事先规则停止并报告。
-- 证据：[evaluations/harness.py](../evaluations/harness.py)
-- 状态说明／剩余：正式运行尚未开始；不能以生成任务清单算完成。
+- 证据：[evaluations/harness.py](../evaluations/harness.py), [docs/owner-review.md](../docs/owner-review.md)
+- 状态说明／剩余：按所有者决定后置正式研究；正式运行尚未开始；不能以生成任务清单算完成。
 
 ## TSK-055 · 准备盲评数据包
 
@@ -404,8 +404,8 @@ Counts: owner_review=3, done=26, partial=27, blocked=8
 
 - Track: optional_extension · Status: **blocked**
 - 完成条件：外部时间单列；共识结果不冒充原始一致性。
-- 证据：[evaluations/rubric.md](../evaluations/rubric.md)
-- 状态说明／剩余：缺少实际输出及独立评审人员；不能生成虚构评分。
+- 证据：[evaluations/rubric.md](../evaluations/rubric.md), [docs/owner-review.md](../docs/owner-review.md)
+- 状态说明／剩余：按所有者决定后置正式研究；缺少实际输出及独立评审人员；不能生成虚构评分。
 
 ## TSK-058 · 执行按项目配对分析
 
@@ -425,8 +425,8 @@ Counts: owner_review=3, done=26, partial=27, blocked=8
 
 - Track: optional_extension · Status: **blocked**
 - 完成条件：每个对外效果声明有对应分析；不足则降低声明。
-- 证据：[docs/research-report.md](../docs/research-report.md), [docs/pilot-findings.md](../docs/pilot-findings.md), [evaluations/results/pilot-2026-09-25/README.md](../evaluations/results/pilot-2026-09-25/README.md)
-- 状态说明／剩余：探索性报告有36次输出；独立人类审查和正式效应结论仍缺少必要评分。
+- 证据：[docs/research-report.md](../docs/research-report.md), [docs/pilot-findings.md](../docs/pilot-findings.md), [evaluations/results/pilot-2026-09-25/README.md](../evaluations/results/pilot-2026-09-25/README.md), [docs/owner-review.md](../docs/owner-review.md)
+- 状态说明／剩余：按所有者决定后置正式研究；探索性报告有36次输出；独立人类审查和正式效应结论仍缺少必要评分。
 
 ## TSK-061 · 形成完整技术报告
 
@@ -453,5 +453,5 @@ Counts: owner_review=3, done=26, partial=27, blocked=8
 
 - Track: optional_extension · Status: **owner_review**
 - 完成条件：基于使用价值和投入，用户决定是否改变四领域承诺。
-- 证据：[docs/maintenance.md](../docs/maintenance.md)
+- 证据：[docs/maintenance.md](../docs/maintenance.md), [docs/owner-review.md](../docs/owner-review.md)
 - 状态说明／剩余：下一阶段选项已准备；最终产品定位与维护投入由所有者决定。

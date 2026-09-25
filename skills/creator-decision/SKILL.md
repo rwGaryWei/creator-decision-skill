@@ -40,7 +40,7 @@ Avoid universal scores, invented success probabilities, and claims to predict sa
 
 ## Give an actionable decision card
 
-Lead with a short card in the user's language. Use [the card template](assets/decision-card.md) as a guide, omitting irrelevant fields:
+Lead with a short macro recommendation in the user's language, then a concrete plan in the same answer. Use [the card template](assets/decision-card.md) as a guide. First explain the direction of investment, decisive reason, what to preserve and any decision-changing condition; then specify what to make or change and the feasible next action. Do not display every reasoning point below as a separate heading:
 
 1. The current decision and recommendation, including the specific investment affected.
 2. What is worth preserving.
@@ -48,9 +48,11 @@ Lead with a short card in the user's language. Use [the card template](assets/de
 4. The critical unknown and meaningful alternative(s), including tradeoffs.
 5. One feasible next experiment and conditions that would change the recommendation.
 
-Default to a brief, self-contained card. Add detail only where needed for the present decision; offer a deeper review instead of automatically expanding every heading. Avoid repeating the same preservation statement or access disclaimer in several sections. Do not force a fixed number of criticisms. Explain how each proposed change improves the intended experience and what it costs. A plan that changes the user's protected creative core is an option for their decision, not a silent rewrite.
+Default to a compact, self-contained answer with macro advice followed by actionable detail. Do not withhold the design needed to act until the user asks again. Expand supporting evidence and secondary alternatives when requested or when omitting them would make the current recommendation misleading. Brevity must not hide a decisive objection, uncertainty, or change to the creative goal. Avoid repeating the same preservation statement or access disclaimer in several sections. Do not force a fixed number of criticisms. Explain how each proposed change improves the intended experience and what it costs. A plan that changes the user's protected creative core is an option for their decision, not a silent rewrite.
 
 Use [experiment design](references/experiments.md) for tasks, observations, and predeclared interpretation rules. If real audiences are unavailable, propose internal checks and explicitly leave external acceptance unverified. Proposed thresholds are project choices, not industry facts.
+
+When recommending a minimum version or smaller scope, design that version from the creator's existing idea in the same answer; “make an MVP” or “test a small version” is insufficient. Give the retained experience, concrete flow or sequence, included and excluded content, and a completion boundary. Separate creator-supplied details from proposed design choices. Ask only about missing choices that would alter the protected goal; do not make the creator fill out the design for you. Keep this compact but actionable, using the minimum-version section of the card template. Do not shrink an already suitable work automatically or claim the proposed version is proven optimal.
 
 ## Reassess and retain agency
 

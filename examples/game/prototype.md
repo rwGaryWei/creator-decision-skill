@@ -19,9 +19,9 @@ Continue the bounded puzzle slice\. The proposed loop and scale match the goal; 
 ## Next experiments
 
 ### EXP\-DEV\-11 · planned
-- Task: In the actual build, compare previewed and final water use for several self\-authored boards, including an exhausted\-resource case\.
-- Observe: Correct consequences, recovery from mistakes and readable resource feedback\.
-- Decision rule: Finish the slice if behavior matches preview; reserve fun and control claims for actual play observations\.
+- Task: While the build is unavailable, use the supplied design to make a paper table of sow/water/wait/harvest actions, previewed costs, and expected final resources, including an exhausted\-resource case\. Mark values not specified in the design as unknown\. Once a build is available, compare those expectations with actual behavior\.
+- Observe: Internal consistency of the described rules and missing specifications now; actual preview accuracy, recovery behavior and control feel remain untested until a build is available\.
+- Decision rule: If the paper table reveals a contradiction, clarify the rule before expanding content\. If it is coherent, continue the bounded slice conditionally\. Do not call implementation reliability or player experience verified until the available build and actual play are inspected\.
 - Resource limit: Use the resources stated in the brief; internal check first; any real participants must be separately available\.
 - Results: not recorded
 

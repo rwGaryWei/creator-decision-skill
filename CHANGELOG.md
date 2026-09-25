@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+- Align the default decision-card template with the owner's clarified preference: macro recommendation first, then an actionable design in the same answer; retain material objections and uncertainty, with further supporting analysis available when needed.
+- When recommending a minimum version, supply a concrete design grounded in the creator's idea, including its experience, flow, scope and completion boundary. Add an explicitly authored gardening illustration for owner review.
+- Correct the gardening prototype demonstration to start with a paper rule check while the build is unavailable. Actual controls and player experience remain unverified.
+- Record the product-first, internal-review route. Formal research is deferred; no new model runs, independent ratings or validated usefulness are implied by these edits.
+
 ## 0.1.0-alpha · implementation prepared 2026-09-25
 
 - Four-domain skill for idea review, prototype diagnosis and feedback reassessment.

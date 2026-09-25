@@ -12,3 +12,5 @@ These 12 authored reports show intended behavior, **not independent model execut
 The gardening prototype illustrates conditional continuation; the sisters' scene illustrates a limited expansion. Other cases involve revision, focus or experiments. The criterion is whether the recommendation fits the goal and supplied evidence, not whether it sounds positive or negative.
 
 For a real project, replace fictional material with what was actually supplied or observed. Never change only the `synthetic` label to manufacture evidence. Human decisions remain pending in these examples.
+
+Additional authored design illustration: [a concrete minimum gardening slice, in Chinese](game/minimum-slice.md). This supplements the 12 structured reports and illustrates an owner-requested output requirement; it is not another model run or an accepted creator design.
