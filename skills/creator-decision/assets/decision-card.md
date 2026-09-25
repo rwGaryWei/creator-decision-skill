@@ -6,6 +6,8 @@
 
 **Audience acceptance (for work intended for others):** [Who might choose it and in what situation; why over existing alternatives; strongest adoption obstacle; supporting and opposing evidence; key unknown]. Distinguish expected use/viewing/play from payment. Give a conditional assessment even when evidence is sparse; a competitor list or “market unverified” alone is insufficient.
 
+**How people find it:** [Selected or candidate platform, target audience, specific discovery route and reason to notice]. Give an organic option and an optional paid route when relevant, with effort/budget limits and an observable next action. Keep reach, audience response and ongoing acceptance distinct; low exposure cannot by itself settle quality or demand.
+
 **Author's choice:** [The specific tradeoff or question to decide]. Explain advantages and disadvantages of meaningful options. Any suggested direction remains advice, not an accepted decision.
 
 **Do next:** [One action possible with the materials and resources currently available]. State what to look for and how it affects the next step, where needed.

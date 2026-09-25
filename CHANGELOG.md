@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Add platform selection and concrete discovery planning after owner review of the science-video case. Distinguish organic and optional paid routes, exposure and downstream acceptance, and require verified platform claims plus budget/stopping conditions before proposing a live promotion test. No campaign was launched.
 - Address an omission identified during owner review of the web case: explicitly assess audience/market acceptance before the build plan, including adoption reasons, alternatives, barriers and evidence gaps even without a revenue goal. The owner found the answer useful but incomplete; this is internal feedback, not market validation or an independent score.
 - Make the owner-confirmed advisory role explicit: research comparable works, explain relevant strengths, weaknesses and questions, and provide concrete options while leaving the final decision to the creator. Add a comparison method and short-drama guidance without claiming any new live research or behavioral results.
 - Align the default decision-card template with the owner's clarified preference: macro recommendation first, then an actionable design in the same answer; retain material objections and uncertainty, with further supporting analysis available when needed.

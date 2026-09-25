@@ -4,6 +4,8 @@ This alpha distinguishes implemented behavior, deterministic checks, authored de
 
 Later owner-assisted development review is recorded in [owner review](owner-review.md). One web-case answer generated in the current development conversation received an owner judgment of useful but incomplete on market acceptance. The gap prompted a new instruction revision and an analysis supplement, not an independent trial or a validated fix. The original 36-run pilot remains unchanged.
 
+The owner subsequently accepted the direction of the displayed market-analysis supplement. A video-case review received positive feedback with a request to include concrete platform/discovery planning. These current-conversation development reviews informed further instructions; they do not extend the isolated pilot count or establish market acceptance, campaign performance or independent usefulness.
+
 | Evidence | Current status | What it establishes |
 |---|---|---|
 | Python unit/integration checks | 70 tests passed locally on Windows, Python 3.12 | Tested report integrity, quote matching, snapshot/journal behavior, installation and evaluation arithmetic |

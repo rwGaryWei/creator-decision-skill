@@ -8,6 +8,8 @@ Included: selective clarification; domain-sensitive inspection; source/observati
 
 For work intended for other people, audience/market acceptance is an explicit part of the macro assessment: target situation, need or desired experience, alternatives, reasons to choose or reject, discovery constraints and evidence gaps. This applies without a revenue goal; use, viewing, play and repeat engagement are distinct from payment. The prohibition on unsupported forecasts does not exclude reasoned market analysis. A personal-only project can be reviewed against its stated goal without imposing a commercial test.
 
+Platform selection and discovery are included in that assessment: a concrete way the intended people could encounter the work, natural and optional paid routes, production/promotion cost, available measurements and stopping conditions. This is planning and analysis, not automatic publishing, outreach, advertising purchases or a promise of traffic. A reach problem must not be silently treated as audience rejection.
+
 Excluded from this release: automatic market forecasts, success/virality probabilities, AI detectors, automated copyright clearance, scraping infrastructure, generated end products, a web SaaS, automatic outreach or purchases, and claims of independent usefulness without testing. Steam can be an optional game source; no Steam ID is required for any flow.
 
 The implementation must retain creative goals such as quiet pacing, unconventional aesthetics, play, learning and expression. It must not silently substitute revenue or broad popularity. A user's confidence is context, not new factual evidence. Significant changes to protected creative intent are choices for that creator.

@@ -44,6 +44,14 @@ The implementation response is to make audience acceptance explicit before the b
 
 Future regression must distinguish a useful implementation answer from a complete audience assessment. A competitor list or generic “market unverified” sentence alone fails this criterion. Include a countercase explicitly limited to personal learning, where commercial validation must not be imposed. No formal holdout cases were used for this correction.
 
+## Video-case feedback: platform and discovery
+
+The owner responded positively to the internal DEV-04 video review generated with Skill commit `eb56a5a` and requested concrete platform and visibility planning, using Douyin and DOU+ as an example. This does not select a platform for a real campaign, authorize spending, establish that new accounts must buy reach, or supply an independent usefulness score.
+
+The [distribution guide](../skills/creator-decision/references/distribution.md) now connects platform/audience fit, a concrete discovery route, organic and optional paid choices, effort and budget, and separate exposure/response/return observations. A local video supplement applies this to the example. The public DOU+ agreement was read to distinguish purchased exposure from guaranteed outcomes; no account analytics or campaign were accessed.
+
+Future regression: an intended-publication case should produce a concrete discovery plan rather than merely say the platform is unknown; a low-exposure case must not be declared audience rejection, and a paid-view increase must not be called validated demand. Check unknown budgets, unavailable metrics and platform claims without inventing values or running external actions. This is a planned check, not a behavioral pass.
+
 ## Remaining work
 
 - TSK-001: complete as a product-scope and protected-principle decision; actual model compliance is a separate unresolved validation task.
