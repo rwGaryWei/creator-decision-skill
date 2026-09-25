@@ -15,3 +15,5 @@ Example experiment: use a reading or rough scene to check whether intended viewe
 AI tradeoffs include character/voice consistency, continuity across shots and episodes, difficult revisions to established material, emotional credibility, and maintaining creative authorship. Numerous generated scenes may add workload without advancing relationships.
 
 Feedback: distinguish “I did not understand the choice” from “I dislike this genre” and “the performance did not convey the choice.” Each calls for a different change.
+
+If the author wants to retain a disputed theme or pace, use the [comparable-work method](../evidence.md) to find online references with relevant similarities and explain their differences. Inspect how motivation, information and payoff work within that pace before proposing a faster rhythm. Give the author grounded questions, pros and cons, and concrete alternative scene designs; do not decide which artistic priority they must sacrifice.

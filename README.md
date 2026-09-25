@@ -4,6 +4,8 @@
 
 A reusable AI skill for people making websites, tools, videos, short dramas, and games with AI. Bring an idea, a draft, or feedback. Get a focused recommendation, what is worth preserving, the assumptions that matter, and a practical next experiment.
 
+**It investigates, explains pros and cons, and raises questions; the creator decides.** When design and goals appear to conflict, it should research comparable works and assess relevant audience, creative, platform and resource tradeoffs. A macro assessment comes before concrete design options. Unavailable browsing or insufficient evidence is disclosed, not replaced by invented references.
+
 [中文说明](README.zh-CN.md) · [Start here](docs/quickstart.md) · [Examples](examples/README.md) · [Current evidence](docs/validation.md) · [64-task progress](docs/task-progress.md)
 
 **Status: 0.1.0-alpha · [MIT](LICENSE).** Instructions and local tooling are implemented. Authored examples illustrate intended behavior; they are not a user study or evidence that this skill improves decisions. See [current validation](docs/validation.md) for actual run and review status.

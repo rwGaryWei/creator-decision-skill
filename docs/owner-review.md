@@ -18,6 +18,14 @@ When a smaller version is recommended, the answer must also provide its concrete
 
 These edits have not been evaluated in fresh model sessions. The earlier 36 pilot outputs remain unchanged and do not measure these revisions.
 
+## Advisory role and comparable works
+
+The owner clarified that when a creator's preferred design appears to conflict with their goal, the Skill should search online for works with comparable themes or pacing, assess the relevant factors together, and explain advantages, disadvantages and questions. It must not decide for the author. This completes the protected-principle review for TSK-001 alongside the already chosen four domains and three stages.
+
+Concrete minimum-version designs remain proposed options, preserving the earlier requirement. The macro opening is an assessment rather than a binding verdict. The new comparison guidance records inspected scope, similarities, consequential differences, sources and limits; it separates comprehension problems from dislike of pacing and comparison from causal proof. No actual comparable short drama has been researched in this requirements discussion, and no new search result or viewing is claimed.
+
+Future behavioral check: use a non-test development case where the creator wants to preserve a quiet style while reaching a broad audience and feedback concerns unclear motivation. Check actual retrieval and source support, comparison relevance, consideration of resources and audience, concrete alternatives and retention of the author's decision. Fail invented references, unsupported claims of viewing, treating one popular work as proof, assuming faster pacing is the solution, or recording a choice the creator never made. With unavailable retrieval, require an explicit gap and a useful analysis limited to supplied material. Status: planned, not passed.
+
 ## Checks for the new minimum-version requirement
 
 Status: planned; no behavioral pass is claimed. Use development material, not held-out formal cases. For each domain, review whether the actual answer:
@@ -30,7 +38,7 @@ Include a countercase where the existing work is already appropriately scoped; a
 
 ## Remaining work
 
-- TSK-001: review protected product principles with the owner; do not ask them to reselect the already chosen four domains.
+- TSK-001: complete as a product-scope and protected-principle decision; actual model compliance is a separate unresolved validation task.
 - TSK-038: engineering checks plus actual behavior regression and four-domain usefulness review are still needed; these are different kinds of evidence.
 - TSK-049, 051, 052, 053, 054, 057 and 060: formal research is deferred. Internal feedback does not complete the independent evaluation requirements. Retain the original requirements and current blocked status.
 - TSK-064: decide next-version scope or limited maintenance after reviewing practical value and effort; the route choice alone is insufficient.

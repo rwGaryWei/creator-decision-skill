@@ -4,16 +4,16 @@
 
 `done`：该具体交付完成；`partial`：已有产物但未达到完整验收；`blocked`：缺少实际研究、独立人员等条件；`owner_review`：需要所有者作出实际判断。文件、程序检查和模型输出不等于独立人工评价。
 
-Counts: owner_review=2, done=27, partial=27, blocked=8
+Counts: done=28, partial=27, blocked=8, owner_review=1
 
 36次探索性模型试跑已执行。人工工时与独立评分未知，不以0代填。试跑之后的指令修订尚未重新进行模型比较。当前先完善产品、开展作者内部评审，正式研究后置；详见[路线与审查记录](owner-review.md)。
 
 ## TSK-001 · 确认产品目标与范围
 
-- Track: core · Status: **owner_review**
+- Track: core · Status: **done**
 - 完成条件：用户确认首版四领域和三入口；不可牺牲目标与未知分开。
 - 证据：[docs/scope.md](../docs/scope.md), [docs/owner-review.md](../docs/owner-review.md)
-- 状态说明／剩余：请所有者审查具体目标与不可牺牲内容；四领域范围已按请求实现。
+- 状态说明／剩余：四领域与三入口沿用已选范围；所有者确认先宏观分析后具体方案，并以相近作品调查、多因素优劣分析和问题支持作者自主决定。未知证据与作者选择保持分开；本项完成产品原则审查，不代表模型行为已验证。
 
 ## TSK-002 · 整理相关项目与研究定位
 

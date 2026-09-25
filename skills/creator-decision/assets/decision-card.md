@@ -1,8 +1,10 @@
 # Decision card
 
-## 1. Macro recommendation (start here)
+## 1. Macro assessment (start here)
 
-**Recommendation:** [Specific next investment], preserving [the relevant creative goal]. Include the decisive reason when needed to understand the advice.
+**Assessment:** [What has value, what tension or problem matters, and why]. Distinguish evidence from interpretation; preserve [the relevant creative goal].
+
+**Author's choice:** [The specific tradeoff or question to decide]. Explain advantages and disadvantages of meaningful options. Any suggested direction remains advice, not an accepted decision.
 
 **Do next:** [One action possible with the materials and resources currently available]. State what to look for and how it affects the next step, where needed.
 
@@ -10,7 +12,7 @@
 
 These can be a short paragraph rather than three headings. Follow immediately with the concrete plan needed to act; do not stop at the overview and require another request for essential details. Do not require an unavailable build, audience, or tool as the immediate action when a useful internal check is possible. Do not imply an internal check verifies audience acceptance.
 
-## 2. Concrete plan (minimum-version design when recommending smaller scope)
+## 2. Concrete options (minimum-version design when proposing smaller scope)
 
 **Keep:** [Elements from the creator's current idea that carry its intended value].
 
@@ -23,6 +25,8 @@ These can be a short paragraph rather than three headings. Follow immediately wi
 **First build step:** [A specific deliverable possible with current resources, plus a useful check]. Ask only for a missing choice that would materially change the creator's goal or design.
 
 Compress these into a small plan when possible. A rule table tests consistency; it does not by itself replace the promised playable slice or finished creative work.
+
+For a conflict between design and goals, add comparable works with direct sources, inspected scope, similarities, differences and what the author could study. Connect relevant audience, execution, platform and resource factors to the options rather than listing them without implications. Ask which tradeoff the author wants to make; leave the choice pending.
 
 ## 3. Supporting review (when requested or decision-relevant)
 
