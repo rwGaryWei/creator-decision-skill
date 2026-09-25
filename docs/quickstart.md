@@ -18,7 +18,7 @@ python scripts/install.py --project "/absolute/path/to/existing/project"
 
 For Windows the argument can be a quoted Windows path. If `python` is unavailable, copy the folder manually; conversation use does not require Python. Do not copy only SKILL.md and omit its linked references. Existing installations are not overwritten. To update, compare your local changes, back up the old folder, then deliberately replace it yourself. To uninstall, remove only that installed skill folder after preserving customizations and reports.
 
-**Verified locally:** folder installation into a temporary project and executing the installed Python helper, on Windows with Python 3.12. **Target:** Python 3.10+ for helpers. The CI matrix is configured for Windows/Linux and Python 3.10/3.12; configured is not the same as a completed run. Automatic host discovery, other assistants, macOS and native multimedia use are not yet certified by this release.
+**Verified locally:** folder installation into a temporary project and executing the installed Python helper, on Windows with Python 3.12. The [first GitHub CI run](https://github.com/rwGaryWei/creator-decision-skill/actions/runs/36076599120) also passed on Windows/Linux and Python 3.10/3.12. **Target:** Python 3.10+ for helpers. Automatic host discovery, other assistants, macOS and native multimedia use are not yet certified by this release.
 
 If the host does not discover it, verify the project and folder structure, start a fresh task, and explicitly supply the SKILL.md plus the relevant domain reference. Report the assistant/version and exact symptom in a sanitized issue. Do not infer compatibility from the shared Markdown format alone.
 

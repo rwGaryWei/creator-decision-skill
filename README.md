@@ -6,7 +6,7 @@ A reusable AI skill for people making websites, tools, videos, short dramas, and
 
 [中文说明](README.zh-CN.md) · [Start here](docs/quickstart.md) · [Examples](examples/README.md) · [Current evidence](docs/validation.md) · [64-task progress](docs/task-progress.md)
 
-**Status: 0.1.0-alpha.** Instructions and local tooling are implemented. Authored examples illustrate intended behavior; they are not a user study or evidence that this skill improves decisions. Independent model comparisons and creator trials remain outstanding. Licensing is awaiting the repository owner's decision; see [licensing status](docs/licensing.md).
+**Status: 0.1.0-alpha · [MIT](LICENSE).** Instructions and local tooling are implemented. Authored examples illustrate intended behavior; they are not a user study or evidence that this skill improves decisions. See [current validation](docs/validation.md) for actual run and review status.
 
 ## A useful review changes a decision
 
@@ -67,6 +67,6 @@ These use the Python standard library. They make no network or model requests an
 
 ## Evaluation and contribution
 
-The repository includes 12 development scenarios, 12 different pilot scenarios, 24 draft test scenarios, and a reproducible evaluation preparation/analysis tool. Scenarios are fictional text materials. No simulated response is counted as an actual experiment. Read the [protocol](evaluations/PROTOCOL.md) before interpreting any numbers.
+The repository includes 12 development scenarios, 12 different pilot scenarios, 24 draft test scenarios, and a reproducible evaluation preparation/analysis tool. A [36-response exploratory pilot](docs/pilot-findings.md) preserves actual outputs; independent human scoring remains outstanding. Scenarios are fictional text materials. No simulated response is counted as an actual experiment. Read the [protocol](evaluations/PROTOCOL.md) before interpreting any numbers.
 
 Useful contributions include a reproducible failure, an example where justified enthusiasm should survive review, or a domain-specific improvement. See [CONTRIBUTING](CONTRIBUTING.md). Do not upload private chats or someone else's full creative work. A star can signal interest, but repeat use and decisions improved are the outcomes this project still needs to measure.

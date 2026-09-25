@@ -14,6 +14,6 @@ Before proposing a change:
 
 Keep English and Chinese promises consistent. Actual observation and evidence limits must survive wording improvements. Public material must remain free of participant identifiers and confidential source captures.
 
-Licensing is currently pending owner selection; please discuss proposed contributions before sending work that assumes a particular inbound/outbound license. No contributor agreement or authorship claim is inferred from filing an issue.
+Original project material is MIT-licensed. Only contribute material you have the right to share under compatible terms and identify any third-party attribution requirements. No authorship claim is inferred from filing an issue.
 
 Maintenance is best effort. There is no hidden telemetry or automatic outreach. Stars and downloads are signals of interest, not evidence of benefit.

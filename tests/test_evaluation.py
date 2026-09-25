@@ -68,6 +68,12 @@ class EvaluationTests(unittest.TestCase):
         with self.assertRaises(ValueError): h.ingest(m,r)
         r['error']='Fixture timeout'; self.assertEqual(h.ingest(m,r)['status'],'failed')
 
+    def test_unexposed_timing_stays_unknown(self):
+        m=h.prepare(self.pilot); r=self.record(m); r['started_at']=None
+        with self.assertRaises(ValueError): h.ingest(m,r)
+        r['timing_note']='Host did not expose model start time; no latency inferred.'
+        self.assertIsNone(h.ingest(m,r)['started_at'])
+
     def test_blind_packet_preserves_text(self):
         m=h.prepare(self.pilot); r=self.record(m)
         packet,key=h.blind(m,[r]); item=packet['items'][0]

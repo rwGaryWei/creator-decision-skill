@@ -2,7 +2,7 @@
 
 ## Accurate project description
 
-Creator Decision is an AI skill and offline Python toolkit for reviewing AI-assisted websites, videos, short dramas and games. It combines goal-sensitive domain guidance, traceable evidence, practical experiments and version-bound human decisions. The current alpha includes authored examples and an evaluation harness; effectiveness remains unmeasured.
+Creator Decision is an AI skill and offline Python toolkit for reviewing AI-assisted websites, videos, short dramas and games. It combines goal-sensitive domain guidance, traceable evidence, practical experiments and version-bound human decisions. The current alpha includes authored examples and an evaluation harness; effectiveness remains unmeasured. A 36-response exploratory pilot is preserved with explicit host limitations; it has no independent human quality scores.
 
 The project owner originated the problem and product direction and reviews the implementation. AI assistance generated substantial instructions, code, documentation and test materials. Human review, independent evaluation and substantive understanding should be described according to what actually happens, not assumed from repository ownership.
 

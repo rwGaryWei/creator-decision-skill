@@ -1,0 +1,53 @@
+{
+  "planned": 36,
+  "completed": 36,
+  "failed": 0,
+  "project_count": 12,
+  "methods": [
+    "B0",
+    "B1",
+    "S"
+  ],
+  "independent_human_ratings": 0,
+  "quality_effect_estimated": false,
+  "word_counts": {
+    "B0": {
+      "median": 271.0,
+      "min": 177,
+      "max": 363,
+      "definition": "whitespace-delimited tokens; a rough length measure, not model tokens or quality"
+    },
+    "B1": {
+      "median": 513.5,
+      "min": 424,
+      "max": 584,
+      "definition": "whitespace-delimited tokens; a rough length measure, not model tokens or quality"
+    },
+    "S": {
+      "median": 510.5,
+      "min": 365,
+      "max": 612,
+      "definition": "whitespace-delimited tokens; a rough length measure, not model tokens or quality"
+    }
+  },
+  "skill_sha256": "cec27d7965b95ed6869e4b2dcd48d186a360309463ab6930e0a6b0033f2894f8",
+  "case_sha256": "2dd786a9eca05506c8c1a4891a0e6a6fd59f0494fdaabc89003029d4cb38ebcc",
+  "execution_disclosure": {
+    "host": "Codex collaboration subagents",
+    "isolation": "one new fork_turns=none subagent per job",
+    "model": "inherited parent configuration; exact deployment ID not exposed to runner",
+    "settings": {
+      "model_override": null,
+      "reasoning_override": null,
+      "temperature": "host controlled, not exposed",
+      "output_budget": "host controlled, not exposed"
+    },
+    "limitations": [
+      "Shared host system/tool context is present in all conditions.",
+      "Method instructions are delivered in a job file, not separate API system messages.",
+      "No browser or external research; agents only read assigned job and write response.",
+      "Not an independently controlled API benchmark; provenance is local agent execution.",
+      "Independent human grading remains outstanding."
+    ]
+  }
+}

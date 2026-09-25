@@ -1,12 +1,12 @@
 # 64 项任务实施进度 / Implementation ledger
 
-更新：2026-09-25 · 0.1.0-alpha。原计划的48项主线与16项可选全部保留。
+更新：2026-09-25 · 0.1.0-alpha。48项主线＋16项可选全部保留。
 
-状态依据原任务完成条件填写。`done` 指具体交付完成；`partial` 表示已有实现但验收未完成；`blocked` 依赖实际运行、参与者或评审；`owner_review` 等待所有者作真实判断。没有把准备文件、虚构案例、程序测试当作真实研究。
+`done`：该具体交付完成；`partial`：已有产物但未达到完整验收；`blocked`：缺少实际研究、独立人员等条件；`owner_review`：需要所有者作出实际判断。文件、程序检查和模型输出不等于独立人工评价。
 
-Counts: owner_review=4, done=16, partial=33, blocked=11
+Counts: owner_review=3, done=26, partial=27, blocked=8
 
-实际人工投入与独立评分尚无记录，保持未知，不填0。私人的学习、就业或其他背景不属于此公开台账。
+36次探索性模型试跑已执行。人工工时与独立评分未知，不以0代填。试跑之后的两项指令修订尚未重新进行模型比较。
 
 ## TSK-001 · 确认产品目标与范围
 
@@ -66,17 +66,17 @@ Counts: owner_review=4, done=16, partial=33, blocked=11
 
 ## TSK-009 · 实现网页工具领域
 
-- Track: core · Status: **partial**
+- Track: core · Status: **done**
 - 完成条件：任务完成、替代、纠错和维护均有实际判断。
-- 证据：[skills/creator-decision/references/domains/web.md](../skills/creator-decision/references/domains/web.md)
-- 状态说明／剩余：网页指南和示范已实现；实际作品操作与模型建议质量未独立评估。
+- 证据：[skills/creator-decision/references/domains/web.md](../skills/creator-decision/references/domains/web.md), [docs/pilot-findings.md](../docs/pilot-findings.md), [evaluations/results/pilot-2026-09-25/README.md](../evaluations/results/pilot-2026-09-25/README.md)
+- 状态说明／剩余：网页指南、示范及3个独立试跑场景已产生具体任务/恢复建议；作者AI审查，不宣称人类有效性。
 
 ## TSK-010 · 实现视频领域
 
-- Track: core · Status: **partial**
+- Track: core · Status: **done**
 - 完成条件：观看承诺与回报可定位；脚本与成片观察区分。
-- 证据：[skills/creator-decision/references/domains/video.md](../skills/creator-decision/references/domains/video.md)
-- 状态说明／剩余：视频指南和示范已实现；尚无真实视频/音频访问或建议质量评估。
+- 证据：[skills/creator-decision/references/domains/video.md](../skills/creator-decision/references/domains/video.md), [docs/pilot-findings.md](../docs/pilot-findings.md), [evaluations/results/pilot-2026-09-25/README.md](../evaluations/results/pilot-2026-09-25/README.md)
+- 状态说明／剩余：视频指南、示范及3个试跑场景区分了脚本/画面描述与实际音视频观察；未宣称真实媒体能力。
 
 ## TSK-011 · 实现作品访问范围记录
 
@@ -94,17 +94,17 @@ Counts: owner_review=4, done=16, partial=33, blocked=11
 
 ## TSK-013 · 实现短剧领域
 
-- Track: core · Status: **partial**
+- Track: core · Status: **done**
 - 完成条件：能解释具体因果和修改影响，不统一改成反转模板。
-- 证据：[skills/creator-decision/references/domains/drama.md](../skills/creator-decision/references/domains/drama.md)
-- 状态说明／剩余：短剧指南和示范已实现；叙事建议的实际质量尚需评审。
+- 证据：[skills/creator-decision/references/domains/drama.md](../skills/creator-decision/references/domains/drama.md), [docs/pilot-findings.md](../docs/pilot-findings.md), [evaluations/results/pilot-2026-09-25/README.md](../evaluations/results/pilot-2026-09-25/README.md)
+- 状态说明／剩余：短剧指南与3个试跑场景给出动机、因果及具体场景修改；保留不同创作取舍。
 
 ## TSK-014 · 实现游戏领域
 
-- Track: core · Status: **partial**
+- Track: core · Status: **done**
 - 完成条件：核心判断无AppID依赖；录像不冒充试玩。
-- 证据：[skills/creator-decision/references/domains/game.md](../skills/creator-decision/references/domains/game.md)
-- 状态说明／剩余：游戏指南和示范已实现；尚无实际构建试玩或建议质量评估。
+- 证据：[skills/creator-decision/references/domains/game.md](../skills/creator-decision/references/domains/game.md), [docs/pilot-findings.md](../docs/pilot-findings.md), [evaluations/results/pilot-2026-09-25/README.md](../evaluations/results/pilot-2026-09-25/README.md)
+- 状态说明／剩余：游戏指南与3个试跑场景处理选择、反馈和范围，无Steam依赖；未冒充实际试玩。
 
 ## TSK-015 · 整理12个开发案例
 
@@ -115,10 +115,10 @@ Counts: owner_review=4, done=16, partial=33, blocked=11
 
 ## TSK-016 · 审查四领域alpha
 
-- Track: core · Status: **partial**
+- Track: core · Status: **done**
 - 完成条件：四领域有实质差异；修复默认劝退；保留失败案例。
-- 证据：[docs/validation.md](../docs/validation.md)
-- 状态说明／剩余：alpha文件已整理；尚未完成跨领域实际模型演练。
+- 证据：[docs/validation.md](../docs/validation.md), [docs/pilot-findings.md](../docs/pilot-findings.md), [evaluations/results/pilot-2026-09-25/README.md](../evaluations/results/pilot-2026-09-25/README.md)
+- 状态说明／剩余：四领域alpha已形成，36次试跑原文保存，并记录基线同样有用及回答偏长的问题。
 
 ## TSK-017 · 实现来源和陈述校验
 
@@ -136,10 +136,10 @@ Counts: owner_review=4, done=16, partial=33, blocked=11
 
 ## TSK-019 · 实现AI制作与证据取舍
 
-- Track: core · Status: **partial**
+- Track: core · Status: **done**
 - 完成条件：分析效率与校正负担；模拟和AI标签不污染事实。
-- 证据：[skills/creator-decision/references/evidence.md](../skills/creator-decision/references/evidence.md)
-- 状态说明／剩余：AI制作取舍与证据规则已写入；尚需检查实际模型输出是否遵循。
+- 证据：[skills/creator-decision/references/evidence.md](../skills/creator-decision/references/evidence.md), [docs/pilot-findings.md](../docs/pilot-findings.md), [evaluations/results/pilot-2026-09-25/README.md](../evaluations/results/pilot-2026-09-25/README.md)
+- 状态说明／剩余：实际试跑记录出现生成/校核成本、具体制作角色以及AI标签不能代替质量证据的判断；不宣称普遍可靠。
 
 ## TSK-020 · 核验引用和发布资料来源
 
@@ -241,17 +241,17 @@ Counts: owner_review=4, done=16, partial=33, blocked=11
 
 ## TSK-034 · 完成36次小规模试跑
 
-- Track: core · Status: **blocked**
+- Track: core · Status: **done**
 - 完成条件：12项目×3方法；所有运行有记录，未完成标缺失。
-- 证据：[evaluations/PROTOCOL.md](../evaluations/PROTOCOL.md)
-- 状态说明／剩余：需要选定可运行的模型环境/配置与预算；36次实际运行尚未开始。
+- 证据：[evaluations/PROTOCOL.md](../evaluations/PROTOCOL.md), [docs/pilot-findings.md](../docs/pilot-findings.md), [evaluations/results/pilot-2026-09-25/README.md](../evaluations/results/pilot-2026-09-25/README.md)
+- 状态说明／剩余：12项目×3方法的36次独立上下文试跑完成；宿主未公开精确模型部署/采样/用量，限制已记录。
 
 ## TSK-035 · 校准评分与错误分类
 
-- Track: core · Status: **blocked**
+- Track: core · Status: **partial**
 - 完成条件：作者/模型/独立评分区分；另用开发案例校准态度/证据对，分别测量评分时间。
-- 证据：[evaluations/rubric.md](../evaluations/rubric.md)
-- 状态说明／剩余：需要真实试跑输出及评分者；校准与工时尚未采集。
+- 证据：[evaluations/rubric.md](../evaluations/rubric.md), [docs/pilot-findings.md](../docs/pilot-findings.md), [evaluations/results/pilot-2026-09-25/README.md](../evaluations/results/pilot-2026-09-25/README.md)
+- 状态说明／剩余：已有36次原始输出和评分表；独立校准、成对行为校准与实际评审工时仍未完成。
 
 ## TSK-036 · 决定扩展研究与产品修订
 
@@ -262,10 +262,10 @@ Counts: owner_review=4, done=16, partial=33, blocked=11
 
 ## TSK-037 · 修复试跑暴露的关键问题
 
-- Track: core · Status: **blocked**
+- Track: core · Status: **partial**
 - 完成条件：保留修复理由，不能用测试集偷偷调方法。
-- 证据：[docs/failure-analysis.md](../docs/failure-analysis.md)
-- 状态说明／剩余：等待实际试跑发现；不能伪造实验暴露的问题。
+- 证据：[docs/failure-analysis.md](../docs/failure-analysis.md), [docs/pilot-findings.md](../docs/pilot-findings.md), [evaluations/results/pilot-2026-09-25/README.md](../evaluations/results/pilot-2026-09-25/README.md)
+- 状态说明／剩余：根据试跑补强简短卡片及外部记录状态说明；未重跑模型比较，不能宣称修复效果已验证。
 
 ## TSK-038 · 执行完整发布候选回归
 
@@ -297,17 +297,17 @@ Counts: owner_review=4, done=16, partial=33, blocked=11
 
 ## TSK-042 · 完善开源协作与维护入口
 
-- Track: core · Status: **partial**
+- Track: core · Status: **done**
 - 完成条件：无需上传私有对话；贡献围绕真实用户任务。
 - 证据：[CONTRIBUTING.md](../CONTRIBUTING.md), [SECURITY.md](../SECURITY.md), [.github/ISSUE_TEMPLATE/bug.md](../.github/ISSUE_TEMPLATE/bug.md)
-- 状态说明／剩余：协作和维护文件已准备；许可证尚待选择，实际社区流程未运行。
+- 状态说明／剩余：MIT许可、贡献指南、问题模板与维护规则已具备；没有上传私密对话或冒充用户量。
 
 ## TSK-043 · 审查许可、隐私和公开材料
 
-- Track: core · Status: **owner_review**
+- Track: core · Status: **done**
 - 完成条件：未获许可材料替换；身份/名称/公开范围待用户明确。
-- 证据：[docs/licensing.md](../docs/licensing.md)
-- 状态说明／剩余：待所有者选择许可证并审查公开材料；未复制私密聊天或第三方作品。
+- 证据：[docs/licensing.md](../docs/licensing.md), [LICENSE](../LICENSE)
+- 状态说明／剩余：所有者明确选择MIT并授权公开项目；已检查发布文件，未包含私密聊天、凭据或第三方评论数据。
 
 ## TSK-044 · 准备发布说明和求职演示
 
@@ -318,10 +318,10 @@ Counts: owner_review=4, done=16, partial=33, blocked=11
 
 ## TSK-045 · 执行发布检查与授权内交付
 
-- Track: core · Status: **partial**
+- Track: core · Status: **done**
 - 完成条件：无授权保留待发布包；外部门槛缺失只能准确标beta。
 - 证据：[CHANGELOG.md](../CHANGELOG.md)
-- 状态说明／剩余：GitHub仓库已创建；完整内容提交仍待Git最终授权并核对远程结果。
+- 状态说明／剩余：完整项目已推送至指定公开仓库；以alpha标记，未冒充通过独立用户门槛的v1。
 
 ## TSK-046 · 撰写初步技术报告
 
@@ -390,15 +390,15 @@ Counts: owner_review=4, done=16, partial=33, blocked=11
 
 - Track: optional_extension · Status: **partial**
 - 完成条件：方法映射受控；比较对保留所需输入差异；不修改正文；文风盲法限制说明。
-- 证据：[evaluations/harness.py](../evaluations/harness.py), [tests/test_evaluation.py](../tests/test_evaluation.py)
-- 状态说明／剩余：盲评导出工具通过虚构夹具检查；尚无真实输出包或评审。
+- 证据：[evaluations/harness.py](../evaluations/harness.py), [tests/test_evaluation.py](../tests/test_evaluation.py), [docs/pilot-findings.md](../docs/pilot-findings.md), [evaluations/results/pilot-2026-09-25/README.md](../evaluations/results/pilot-2026-09-25/README.md)
+- 状态说明／剩余：实际36次试跑已生成方法名隐藏的未评分材料，映射留在本地；正式研究包未产生，公开原文使盲化有限。
 
 ## TSK-056 · 核验运行数据完整性
 
 - Track: optional_extension · Status: **partial**
 - 完成条件：每条可追溯；不把432相关观测算432独立项目。
-- 证据：[scripts/check_release.py](../scripts/check_release.py), [evaluations/PROTOCOL.md](../evaluations/PROTOCOL.md)
-- 状态说明／剩余：案例分组与结构检查可运行；真实研究记录完整性尚无数据可检。
+- 证据：[scripts/check_release.py](../scripts/check_release.py), [evaluations/PROTOCOL.md](../evaluations/PROTOCOL.md), [docs/pilot-findings.md](../docs/pilot-findings.md), [evaluations/results/pilot-2026-09-25/README.md](../evaluations/results/pilot-2026-09-25/README.md)
+- 状态说明／剩余：36次试跑的输入/输出哈希、分组和数量已核对；正式180/432次研究未运行。
 
 ## TSK-057 · 组织评分与记录分歧
 
@@ -418,22 +418,22 @@ Counts: owner_review=4, done=16, partial=33, blocked=11
 
 - Track: optional_extension · Status: **partial**
 - 完成条件：不精选成功；合理更新与态度不稳定分开。
-- 证据：[docs/failure-analysis.md](../docs/failure-analysis.md)
-- 状态说明／剩余：失败分析分类和记录法已准备；没有真实研究结果可分析。
+- 证据：[docs/failure-analysis.md](../docs/failure-analysis.md), [docs/pilot-findings.md](../docs/pilot-findings.md), [evaluations/results/pilot-2026-09-25/README.md](../evaluations/results/pilot-2026-09-25/README.md)
+- 状态说明／剩余：已逐条阅读36次回答并写非盲实施AI质性复盘；未产生独立评分或正式研究错误率。
 
 ## TSK-060 · 独立复核研究结论
 
 - Track: optional_extension · Status: **blocked**
 - 完成条件：每个对外效果声明有对应分析；不足则降低声明。
-- 证据：[docs/research-report.md](../docs/research-report.md)
-- 状态说明／剩余：没有完整实证结果可作独立研究审查。
+- 证据：[docs/research-report.md](../docs/research-report.md), [docs/pilot-findings.md](../docs/pilot-findings.md), [evaluations/results/pilot-2026-09-25/README.md](../evaluations/results/pilot-2026-09-25/README.md)
+- 状态说明／剩余：探索性报告有36次输出；独立人类审查和正式效应结论仍缺少必要评分。
 
 ## TSK-061 · 形成完整技术报告
 
 - Track: optional_extension · Status: **partial**
 - 完成条件：清楚记录实际完成/未完成，论文形式待贡献确定。
-- 证据：[docs/research-report.md](../docs/research-report.md)
-- 状态说明／剩余：已写准备阶段报告；正式研究未执行，不能称完整实证成果。
+- 证据：[docs/research-report.md](../docs/research-report.md), [docs/pilot-findings.md](../docs/pilot-findings.md), [evaluations/results/pilot-2026-09-25/README.md](../evaluations/results/pilot-2026-09-25/README.md)
+- 状态说明／剩余：已更新为36次探索性试跑报告，完整披露限制；正式研究与独立评价尚未完成。
 
 ## TSK-062 · 整理导师沟通与投稿准备
 

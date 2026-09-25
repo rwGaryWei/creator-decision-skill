@@ -99,8 +99,10 @@ def ingest(manifest, record):
     if len(matches)!=1: raise ValueError('unknown or duplicated job')
     job=matches[0]
     if record.get('input_sha256')!=job['input_sha256']: raise ValueError('input hash mismatch')
-    for key in ('model','host','settings','started_at','finished_at','provenance'):
+    for key in ('model','host','settings','provenance'):
         if not record.get(key): raise ValueError('missing run metadata: '+key)
+    if not record.get('started_at') or not record.get('finished_at'):
+        if not record.get('timing_note'): raise ValueError('missing timing requires an explicit limitation note')
     if record.get('status') not in ('completed','failed'): raise ValueError('invalid run status')
     if record['status']=='completed' and not str(record.get('response','')).strip(): raise ValueError('empty completed response')
     if record['status']=='failed' and not record.get('error'): raise ValueError('failure needs an error')

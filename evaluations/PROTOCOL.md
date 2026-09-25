@@ -1,6 +1,6 @@
 # Evaluation protocol draft · manual-text-v1
 
-**Status: prepared, not frozen or executed.** No model effect, user benefit or research approval is claimed. All supplied scenarios are fictional text materials; none is a real participant record. Review and timestamp this protocol, exact cases, prompts, skill version, run settings and analysis plan before formal runs.
+**Formal study status: draft, not frozen or executed.** A separate [36-run exploratory pilot](../docs/pilot-findings.md) has been completed with disclosed host-level limitations. No model effect, user benefit or research approval is claimed. All supplied scenarios are fictional text materials; none is a real participant record. Review and timestamp this protocol, exact cases, prompts, skill version, run settings and analysis plan before formal runs.
 
 ## Questions and unit of analysis
 
@@ -41,7 +41,7 @@ The generator uses seed 1729 and retains the randomized job order. Do not choose
 ## Run procedure and failures
 
 1. Review/freeze materials, prompts and skill commit. Save a manifest privately.
-2. Run each job in a fresh context with its exact system material and user prompt. Record model ID/version, host/version, settings, start/end timestamps, input hash, full raw output and provenance.
+2. Run each job in a fresh context with its exact system material and user prompt. Record model ID/version, host/version, settings, start/end timestamps, input hash, full raw output and provenance. If the host does not expose a field, state that explicitly; unknown timestamps stay null with a `timing_note`. Do not infer latency or exact deployment reproducibility from unavailable metadata.
 3. Preserve failed attempts with error, elapsed time and any usage/cost returned. One retry is allowed only for transport/availability failures, with a new attempt record linked to the original. A substantive poor response is a result, not a reason to retry.
 4. Do not edit or clean responses before scoring. Record truncation and missing outputs. Never fill missing scores with zero.
 5. Stop at the predeclared budget; report completed/planned counts and selection order. Do not quietly replace a 432 plan with whichever outputs were cheapest or best.

@@ -1,17 +1,17 @@
 # Validation status · 2026-09-25
 
-This alpha distinguishes implemented behavior, deterministic checks, authored demonstrations, model runs and independent human evidence.
+This alpha distinguishes implemented behavior, deterministic checks, authored demonstrations, model runs and independent human evidence. The [36-run pilot report](pilot-findings.md) links exact inputs and unedited outputs. Two subsequent instruction refinements are disclosed there and have not received a second model comparison. Skill Creator's official format validator also passed; this is a format check only.
 
 | Evidence | Current status | What it establishes |
 |---|---|---|
-| Python unit/integration checks | 69 tests passed locally on Windows, Python 3.12 | Tested report integrity, quote matching, snapshot/journal behavior, installation and evaluation arithmetic |
+| Python unit/integration checks | 70 tests passed locally on Windows, Python 3.12 | Tested report integrity, quote matching, snapshot/journal behavior, installation and evaluation arithmetic |
 | Authored JSON/Markdown examples | 12, four domains × three stages | Intended output and schema compatibility; not model effectiveness |
 | Installation smoke check | Temporary project copy and installed helper executed | Copy layout and helper operation; not host auto-discovery |
-| Pilot comparison | 0 of 36 model jobs executed | No comparative conclusion |
+| Pilot comparison | 36 of 36 isolated subagent responses saved | Exploratory outputs; no independently rated quality conclusion |
 | Formal study | Not frozen or run; 24 draft cases | Materials for review only |
 | Independent reviewers | None confirmed | No independent scores or agreement statistics |
 | Creator trials | None completed | No external usability or outcome claim |
-| GitHub CI | Workflow prepared; remote execution not yet verified | No platform pass claimed until a run completes |
+| GitHub CI | [Initial matrix passed](https://github.com/rwGaryWei/creator-decision-skill/actions/runs/36076599120) on Windows/Linux, Python 3.10/3.12 | Tool and package checks; later revisions require their own CI result |
 
 Reproduce engineering checks from the repository root:
 

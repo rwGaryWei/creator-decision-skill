@@ -10,6 +10,6 @@ Excluded from this release: automatic market forecasts, success/virality probabi
 
 The implementation must retain creative goals such as quiet pacing, unconventional aesthetics, play, learning and expression. It must not silently substitute revenue or broad popularity. A user's confidence is context, not new factual evidence. Significant changes to protected creative intent are choices for that creator.
 
-Current owner-review items: review the alpha's tone and actual usefulness; select a public license; approve a model-run environment and limits if formal comparisons are wanted; decide whether to seek independent reviewers. No external participant has been contacted and no research approval is represented as granted.
+Current owner-review items: review the alpha's tone and actual usefulness; MIT has been selected and the 36-run exploratory pilot authorized and completed; choose formal-run settings and limits if further comparisons are wanted; decide whether to seek independent reviewers. No external participant has been contacted and no research approval is represented as granted.
 
 Release gates are project proposals, not empirical industry standards. Alpha can be public with truthful limits. Calling the product a validated v1 requires no unresolved critical failures, completed behavioral review, and independent creator use. A proposed practical trial is four creators spanning the four domains, with at least three completing their chosen review without intervention; this would still be an early usability signal, not market validation.

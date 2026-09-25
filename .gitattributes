@@ -4,3 +4,5 @@
 *.json text eol=lf
 *.yml text eol=lf
 *.yaml text eol=lf
+# Preserve exact model output bytes so captured SHA-256 values survive checkout.
+evaluations/results/**/PILOT-*.md -text

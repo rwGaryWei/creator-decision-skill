@@ -1,5 +1,6 @@
 """Check packaged examples, references and split integrity without a model or network."""
 import importlib.util
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -49,6 +50,21 @@ def check(root=ROOT):
         for t in tasks:
             for evidence in t['evidence']:
                 if not (root/evidence).exists(): errors.append('Missing task evidence: '+evidence)
+    for folder in (root/'evaluations/results').glob('*'):
+        if not folder.is_dir(): continue
+        try:
+            spec=importlib.util.spec_from_file_location('evaluation_release',root/'evaluations/harness.py')
+            harness=importlib.util.module_from_spec(spec); spec.loader.exec_module(harness)
+            manifest=harness.load(folder/'manifest.json'); records=harness.load(folder/'records.json')
+            jobs={j['id'] for j in manifest['jobs']}
+            if len({r['job_id'] for r in records})!=len(records): errors.append('Duplicate actual run record')
+            if {r['job_id'] for r in records}!=jobs: errors.append('Run records do not cover manifest')
+            for record in records:
+                harness.ingest(manifest,record)
+                raw=(folder/(record['job_id']+'.md')).read_bytes()
+                if raw.decode('utf-8')!=record['response']: errors.append('Raw response text mismatch')
+                if hashlib.sha256(raw).hexdigest()!=record['raw_file_sha256']: errors.append('Raw response hash mismatch')
+        except (ValueError,OSError,KeyError) as exc: errors.append(str(exc))
     return {'checks':'package integrity only; not behavioral acceptance or research effectiveness',
             'examples':len(examples),'errors':errors,'passed':not errors}
 

@@ -8,6 +8,8 @@ For a prototype, walk a specific user task if browser interaction is available. 
 
 Prioritize obstacles by their effect on the core task. Distinguish a missing feature from an unnecessary step, misleading promise, unclear decision, inaccessible interaction, or unhandled error. Propose the smallest coherent improvement, not a list of fashionable features.
 
+For a workflow that changes an external record, distinguish a proposed change, approval, actual application to the authoritative record, and confirmation to affected people. Approval alone must not imply that a roster, payment, booking, or other external state has changed. With no integration, make the manual application and failure/reconciliation steps explicit; do not send real messages merely to demonstrate them.
+
 Example: a scheduling assistant's promise is less effort when plans change. A useful test observes one schedule conflict, the user's ability to understand proposed changes, reject an unsuitable change, and repair it. Measure setup and checking effort too. A successful walkthrough does not establish repeat use or willingness to pay.
 
 AI tradeoffs: generated UI/code can reduce draft time while increasing verification and maintenance; automation that hides uncertainty can raise correction costs. Ask which decisions should remain editable and which inputs are sensitive.

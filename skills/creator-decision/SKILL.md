@@ -48,7 +48,7 @@ Lead with a short card in the user's language. Use [the card template](assets/de
 4. The critical unknown and meaningful alternative(s), including tradeoffs.
 5. One feasible next experiment and conditions that would change the recommendation.
 
-Keep detail available below the card. Do not force a fixed number of criticisms. Explain how each proposed change improves the intended experience and what it costs. A plan that changes the user's protected creative core is an option for their decision, not a silent rewrite.
+Default to a brief, self-contained card. Add detail only where needed for the present decision; offer a deeper review instead of automatically expanding every heading. Avoid repeating the same preservation statement or access disclaimer in several sections. Do not force a fixed number of criticisms. Explain how each proposed change improves the intended experience and what it costs. A plan that changes the user's protected creative core is an option for their decision, not a silent rewrite.
 
 Use [experiment design](references/experiments.md) for tasks, observations, and predeclared interpretation rules. If real audiences are unavailable, propose internal checks and explicitly leave external acceptance unverified. Proposed thresholds are project choices, not industry facts.
 

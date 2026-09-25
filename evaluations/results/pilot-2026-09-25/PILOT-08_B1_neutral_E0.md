@@ -1,0 +1,17 @@
+Your next investment of effort should be a focused revision of the key’s two ownership changes, followed by a small reader test. The mystery around the family decision is worth preserving. The immediate task is to make the uncertainty feel deliberate.
+
+Based on your brief, the key changes owners twice without a shown transfer. I haven’t seen the outline itself, so I can’t tell whether those changes contradict the story or simply lack enough cues. Also separate ownership from possession: someone can inherit the key while another person holds it. That distinction could become part of the mystery if the audience has a fair way to recognize it.
+
+The key’s strength is its concreteness. It can carry inheritance, authority, trust, or exclusion through a small physical action. For a short drama, that gives you a potentially economical way to dramatize a family decision. The risk is that viewers spend their attention reconstructing where the prop went instead of wondering why the family acted as it did. A useful target is: viewers can describe the discrepancy, even if they cannot explain it.
+
+For each change, privately record who owns the key, who physically holds it, what happened between appearances, and what the audience can observe. Then choose the smallest intervention that supports your intended question:
+
+- **Show a transfer; conceal its meaning.** A handover is visible, but the pressure, bargain, or motive behind it remains unresolved. This suits a mystery centered on why the family made its decision.
+- **Keep the transfer unseen; acknowledge the discrepancy.** A reaction, an empty hook, or a pointed question establishes that the changed possession matters. This suits a mystery where who moved the key is part of the family conflict.
+- **Remove an unnecessary change.** If both changes perform the same dramatic function, simplifying one may leave more room for the consequential decision.
+
+My provisional preference is the first option, unless the unseen transfer is essential to the reveal. Ambiguity about motives can survive very clear physical continuity. There’s no need to explain every hand movement, but each ownership change should earn its place.
+
+Before expanding the outline or producing visuals, revise only the affected beats and give the original and revised versions to separate small groups of readers. Ask who they believe owns and holds the key at each point, what they think the family is hiding, and which uncertainty made them curious or confused. Look for readers disagreeing about motives while understanding—or consciously noticing—the key’s changing status. A handful of readers will provide directional feedback, not proof of audience response.
+
+This is feasible at the text stage with little production work. If you use AI, limit it to proposing a few alternate beats or checking the private continuity map. Review every suggestion against the intended family decision; extra explanations could flatten the ambiguity. Exact AI costs depend on your tools, but the useful investment here is your selection and revision time. Defer generated imagery, voices, or filmed material until this reader test identifies which version communicates the intended mystery.

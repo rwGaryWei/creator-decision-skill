@@ -1,8 +1,8 @@
-# Creator Decision evaluation report · preparation stage
+# Creator Decision evaluation report · exploratory pilot stage
 
 ## Abstract
 
-This repository implements a four-domain creative-decision skill with optional evidence and versioning tools. Engineering checks and fictional demonstration materials exist. No comparative model experiment or independent creator study has been completed. Consequently this report makes no claim that the skill improves decisions, predicts market acceptance or reduces sycophancy.
+This repository implements a four-domain creative-decision skill with optional evidence and versioning tools. Engineering checks and fictional demonstration materials exist. An exploratory 36-response host-level pilot is complete; no independent creator study or human scoring has been completed. Consequently this report makes no claim that the skill improves decisions, predicts market acceptance or reduces sycophancy.
 
 ## Artifact and motivation
 
@@ -18,7 +18,7 @@ The [draft protocol](../evaluations/PROTOCOL.md) proposes B0, B1 and S compariso
 
 ## Results currently available
 
-The deterministic checks recorded in [validation](validation.md) cover local engineering behavior. Twelve fictional output examples illustrate intended use. Model comparisons completed: **0**. Independent creator sessions completed: **0**. Independent human ratings: **0**. Effect sizes, confidence intervals, agreement and market outcomes: **not estimated**.
+The deterministic checks recorded in [validation](validation.md) cover local engineering behavior. Twelve fictional output examples illustrate intended use. Exploratory model responses completed: **36/36** across **12** projects and three prompt conditions; [methods, outputs and limitations](pilot-findings.md). Independent creator sessions completed: **0**. Independent human ratings: **0**. Effect sizes, confidence intervals, agreement and market outcomes: **not estimated**.
 
 ## Discussion and limitations
 
@@ -26,6 +26,6 @@ Implementation and testable materials make future investigation possible, but do
 
 ## Next decision
 
-Select an authorized run environment and budget, review/freeze materials, execute the pilot, repair issues on non-test data, and decide whether independent review is feasible. If those resources are unavailable, publish only the alpha engineering artifact and this preparation-stage report. A completed research report requires actual methods, observations and limitations to replace—not merely fill decoratively—these missing results.
+Review the saved pilot outputs, calibrate actual reviewers on development material, and decide whether an independently reviewed formal run is feasible. Two instruction refinements motivated by the pilot are documented but not re-evaluated yet. If those resources are unavailable, publish only the alpha engineering artifact and this exploratory report. A completed research report requires actual methods, observations and limitations to replace—not merely fill decoratively—these missing results.
 
 No participants have been recruited, no institutional approval is claimed, and no manuscript has been submitted.
